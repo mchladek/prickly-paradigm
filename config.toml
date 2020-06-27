@@ -18,8 +18,8 @@ theme = "terrassa"
 
 [params.cta] # Call To Action
     show = true
-    cta = "Contact"
-    link = "contact" # Relative URL
+    cta = "Our Titles"
+    link = "titles" # Relative URL
 
 [params.separator] # Separators between sections on the home page
     show = false

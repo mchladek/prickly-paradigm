@@ -623,6 +623,7 @@
 .ripple-btn {
 	background-color: var(--primary-dark);
 	border: none;
+	border-radius: 0.5rem;
 	color: var(--white);
 	overflow: hidden;
 	padding: 1.15rem 4.5rem;

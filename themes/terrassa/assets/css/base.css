@@ -72,3 +72,9 @@ pre {
 textarea {
     resize: none;
 }
+
+@media (max-width:768px){
+    body {
+        text-align: left;
+    }
+}
