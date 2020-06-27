@@ -10,7 +10,7 @@ theme = "terrassa"
 
 [params]
     description = ""
-    favicon = ""
+    favicon = "images/favicon.ico"
     logo = "images/logo.png"
 
 [params.hero]
