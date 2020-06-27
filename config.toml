@@ -32,7 +32,7 @@ theme = "terrassa"
     showAuthor = false
     showDate = true
     showTags = true
-    dateFormat = "Jan 06, 2006"
+    dateFormat = "2 January 2006"
 
 [params.contact] # Contact info
     email = "info@prickly-paradigm.com"

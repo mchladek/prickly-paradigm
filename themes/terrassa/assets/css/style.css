@@ -262,6 +262,7 @@
 .post__date {
 	grid-area: date;
 	margin-bottom: 1.75rem;
+	text-align: center;
 }
 
 .post__body {

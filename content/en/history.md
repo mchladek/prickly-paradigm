@@ -4,7 +4,7 @@ description: ""
 images: ["pic_history.jpg"]
 draft: false
 menu: main
-weight: 2
+weight: 3
 ---
 
 ## Our Prickly Past

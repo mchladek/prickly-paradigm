@@ -8,10 +8,20 @@
         {{ if ne .Type "page" }}
         {{ if and $.Site.Params.posts.showDate $.Site.Params.posts.showAuthor }}
         <p class="card__header__date date">
-            {{ dateFormat $.Site.Params.posts.dateFormat .Date }} By {{ $.Params.author }}.
+            {{ if (eq .Language.Lang "th") }}
+                {{ .Date.Day }} {{ index $.Site.Data.thaiMonths (printf "%d" .Date.Month) }} {{ .Date.Year }}
+            {{ else }}
+                {{ dateFormat $.Site.Params.posts.dateFormat .Date }}
+            {{ end }} By {{ $.Params.author }}.
         </p>
         {{ else if $.Site.Params.posts.showDate }}
-        <p class="card__header__date date">{{ dateFormat $.Site.Params.posts.dateFormat .Date }}</p>
+        <p class="card__header__date date">
+            {{ if (eq .Language.Lang "th") }}
+                {{ .Date.Day }} {{ index $.Site.Data.thaiMonths (printf "%d" .Date.Month) }} {{ .Date.Year }}
+            {{ else }}
+                {{ dateFormat $.Site.Params.posts.dateFormat .Date }}
+            {{ end }}
+        </p>
         {{ else if $.Site.Params.posts.showAuthor }}
         <p class="card__header__author author">By {{ $.Params.author }}.</p>
         {{ end }}
