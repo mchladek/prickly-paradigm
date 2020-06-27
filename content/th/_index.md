@@ -1,7 +1,7 @@
 ---
 title: "หน้าแรก"
 description: ""
-images: ["hero_50.png"]
+images: ["hero.png"]
 draft: false
 menu: main
 weight: 1
