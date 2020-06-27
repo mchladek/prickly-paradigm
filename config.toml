@@ -4,7 +4,7 @@ defaultContentLanguage = "en"
 title = "Prickly Paradigm Press"
 author = "Prickly Paradigm"
 googleAnalytics = ""
-enableRobotsTXT = false
+enableRobotsTXT = true
 paginate = 10
 theme = "terrassa"
 
