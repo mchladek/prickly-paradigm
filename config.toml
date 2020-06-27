@@ -1,8 +1,100 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "SiteTitle"
-author = "SiteAuthor"
+defaultContentLanguage = "en"
+title = "Prickly Paradigm Press"
+author = "Prickly Paradigm"
 googleAnalytics = ""
 enableRobotsTXT = false
 paginate = 10
 theme = "terrassa"
+
+[params]
+    description = ""
+    favicon = ""
+    logo = "images/logo.png"
+
+[params.hero]
+    textColor = ""
+
+[params.cta] # Call To Action
+    show = true
+    cta = "Contact"
+    link = "contact" # Relative URL
+
+[params.separator] # Separators between sections on the home page
+    show = false
+
+[params.fa] # Font Awesome options
+    version = "5.7.2"
+    integrity = "sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+
+[params.posts]
+    showAuthor = false
+    showDate = true
+    showTags = true
+    dateFormat = "Jan 06, 2006"
+
+[params.contact] # Contact info
+    email = "info@prickly-paradigm.com"
+    phone = ""
+    skype = ""
+    address = "5629 S University Ave, Chicago, IL 60637"
+
+[params.social]
+    twitter = "https://twitter.com/john"
+    facebook = "https://facebook.com/john"
+    github = ""
+    gitlab = ""
+    codepen = ""
+    instagram = "https://instagram.com/john"
+    pinterest = ""
+    youtube = ""
+    linkedin = ""
+    weibo = ""
+    mastodon = ""
+    tumblr = ""
+    flickr = ""
+    "500px" = ""
+
+[params.copy] # Copyright
+    copy = "" # Empty for default content
+
+[privacy]
+    [privacy.googleAnalytics]
+        anonymizeIP = true
+        disable = false
+        respectDoNotTrack = true
+        useSessionStorage = false
+    [privacy.instagram]
+        disable = false
+        simple = false
+    [privacy.twitter]
+        disable = false
+        enableDNT = true
+        simple = false
+    [privacy.vimeo]
+        disable = false
+        simple = false
+    [privacy.youtube]
+        disable = false
+        privacyEnhanced = true
+
+[params.languageSwitcher]
+    show = true
+
+[languages]
+    [languages.en]
+        languageName = "en"
+        weight = 1
+        contentDir = "content/en"
+    [languages.th]
+        languageName = "th"
+        weight = 2
+        contentDir = "content/th"
+        title = "Prickly Paradigm Press"
+        description = ""
+        [languages.th.params]
+            [languages.th.params.cta] # Translate Call To Action
+                show = true
+                cta = "ติดต่อเรา"
+                link = "th/contact/" # Relative URL
