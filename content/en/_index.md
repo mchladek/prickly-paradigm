@@ -2,7 +2,7 @@
 title: "Home"
 description: ""
 images: ["hero_50.png"]
-draft: true
+draft: false
 menu: main
 weight: 0
 ---
