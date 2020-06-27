@@ -12,5 +12,4 @@ url: ""
 notes: ""
 toc: ""
 draft: true
-weight: 0
 ---

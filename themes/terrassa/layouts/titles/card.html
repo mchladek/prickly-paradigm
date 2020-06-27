@@ -1,0 +1,32 @@
+<article class="titlecard">
+    <div class="titlecard__row">
+        <div class="titlecard__cover">
+            <img src="{{ $.Site.BaseURL }}images/{{ .Params.Cover}}" width="178" alt="{{ .Title }} Cover">
+        </div>
+        <div class="titlecard__content">
+            <header class="titlecard__header">
+                <h1 class="titlecard__header__title">
+                    <a href="{{ .Permalink }}" class="titlecard__header__link" alt="{{ .Title }}.">
+                        {{ .Title | markdownify }}{{ if .Params.Subtitle }}: {{ .Params.Subtitle | markdownify }}{{ end }}
+                    </a>
+                </h1>
+                {{ if .Params.Number }}
+                <h3 class="titlecard__header__number">Prickly Paradigm #{{ .Params.Number }}</h3>
+                {{ end }}
+                <p class="titlecard__header__author">{{ $.Params.author }}</p>
+            </header>
+
+            <main class="titlecard__body">
+                {{ .Content | truncate 400 }} <a href="{{ .Permalink }}" class="titlecard__body__link" alt="{{ .Title }}">Read More</a>
+            </main>
+            {{ if .Params.Exturl }}
+            <a href="{{ .Params.Exturl | safeURL }}" class="ripple-btn order__btn" alt="Order Now" aria-label="Order Now" target="_blank">
+                Order Now
+            </a>
+            {{ end }}
+            <footer class="titlecard__footer">
+                {{ .Render "tags" }}
+            </footer>
+        </div>
+    </div>
+</article>
