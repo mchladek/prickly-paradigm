@@ -30,7 +30,7 @@ collections:
     files:
       - name: 'general'
         label: 'Site Settings'
-        file: 'config.toml'
+        file: 'config.json'
         description: 'General Site Settings'
         fields:
           - {label: 'Site Title', name: 'title', widget: 'string'}
