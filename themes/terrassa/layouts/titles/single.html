@@ -37,7 +37,9 @@
         {{ .Content }}
     </main>
     {{ end }}
-
+    {{ range .Params.Translations }}
+    {{ .language }} -- {{ .native }} -- {{ .transurl }}<br/>
+    {{ end }}
     {{ if ne .Type "page" }}
     <footer class="post__footer">
         {{ .Render "tags" }}
