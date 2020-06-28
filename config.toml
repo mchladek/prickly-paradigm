@@ -80,21 +80,4 @@ theme = "terrassa"
         privacyEnhanced = true
 
 [params.languageSwitcher]
-    show = true
-
-[languages]
-    [languages.en]
-        languageName = "en"
-        weight = 1
-        contentDir = "content/en"
-    [languages.th]
-        languageName = "th"
-        weight = 2
-        contentDir = "content/th"
-        title = "Prickly Paradigm Press"
-        description = ""
-        [languages.th.params]
-            [languages.th.params.cta] # Translate Call To Action
-                show = true
-                cta = "ติดต่อเรา"
-                link = "th/contact/" # Relative URL
+    show = false
