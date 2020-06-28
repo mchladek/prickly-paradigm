@@ -35,11 +35,15 @@ collections:
         fields:
           - {label: 'Site Title', name: 'title', widget: 'string'}
           - {label: 'Pagination Break Point', name: 'paginate', widget: 'number', hint: 'Number of posts to display per page'}
-          - label: 'Contact Info'
-            name: 'params.contact'
+          - label: 'Site Parameters'
+            name: 'params'
             widget: 'object'
             fields:
-              - {label: 'Email', name: 'email', widget: 'string', pattern: ['[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+', "Must be a valid email address."]}
-              - {label: 'Phone number', name: 'phone', widget: 'string'}
-              - {label: 'Skype', name: 'skype', widget: 'string'}
-              - {label: 'Address', name: 'address', widget: 'string'}
+              - label: 'Contact Info'
+                name: 'contact'
+                widget: 'object'
+                fields:
+                  - {label: 'Email', name: 'email', widget: 'string', pattern: ['[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+', "Must be a valid email address."]}
+                  - {label: 'Phone number', name: 'phone', widget: 'string'}
+                  - {label: 'Skype', name: 'skype', widget: 'string'}
+                  - {label: 'Address', name: 'address', widget: 'string'}
