@@ -1,83 +1,94 @@
-baseURL = "/"
+enableRobotsTXT = true
 languageCode = "en-us"
-defaultContentLanguage = "en"
-title = "Prickly Paradigm Press"
+theme = "terrassa"
 author = "Prickly Paradigm"
 googleAnalytics = ""
-enableRobotsTXT = true
+defaultContentLanguage = "en"
+title = "Prickly Paradigm Press"
 paginate = 10
-theme = "terrassa"
+baseURL = "/"
 
 [params]
-    description = ""
-    favicon = "images/favicon.ico"
-    logo = "images/logo.png"
+logo = "images/logo.png"
+favicon = "images/favicon.ico"
+description = ""
 
-[params.hero]
-    textColor = ""
+[params.contact]
+email = "info@prickly-paradigm.com"
+phone = ""
+skype = ""
+address = "5629 S University Ave, Chicago, IL 60637"
 
-[params.cta] # Call To Action
-    show = true
-    cta = "Our Titles"
-    link = "titles" # Relative URL
-
-[params.separator] # Separators between sections on the home page
-    show = false
-
-[params.fa] # Font Awesome options
-    version = "5.7.2"
-    integrity = "sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
-
-[params.posts]
-    showAuthor = false
-    showDate = true
-    showTags = true
-    dateFormat = "2 January 2006"
-
-[params.contact] # Contact info
-    email = "info@prickly-paradigm.com"
-    phone = ""
-    skype = ""
-    address = "5629 S University Ave, Chicago, IL 60637"
+[params.separator]
+show = false
 
 [params.social]
-    twitter = "https://twitter.com/john"
-    facebook = "https://facebook.com/john"
-    github = ""
-    gitlab = ""
-    codepen = ""
-    instagram = "https://instagram.com/john"
-    pinterest = ""
-    youtube = ""
-    linkedin = ""
-    weibo = ""
-    mastodon = ""
-    tumblr = ""
-    flickr = ""
-    "500px" = ""
+youtube = ""
+github = ""
+facebook = "https://facebook.com/john"
+flickr = ""
+weibo = ""
+mastodon = ""
+codepen = ""
+instagram = "https://instagram.com/john"
+twitter = "https://twitter.com/john"
+pinterest = ""
+gitlab = ""
+tumblr = ""
+500px = ""
+linkedin = ""
 
-[params.copy] # Copyright
-    copy = "" # Empty for default content
+[params.cta]
+show = true
+cta = "Our Titles"
+link = "titles"
 
-[privacy]
-    [privacy.googleAnalytics]
-        anonymizeIP = true
-        disable = false
-        respectDoNotTrack = true
-        useSessionStorage = false
-    [privacy.instagram]
-        disable = false
-        simple = false
-    [privacy.twitter]
-        disable = false
-        enableDNT = true
-        simple = false
-    [privacy.vimeo]
-        disable = false
-        simple = false
-    [privacy.youtube]
-        disable = false
-        privacyEnhanced = true
+[params.posts]
+showAuthor = false
+showDate = true
+showTags = true
+dateFormat = "2 January 2006"
+
+[params.copy]
+copy = ""
 
 [params.languageSwitcher]
-    show = false
+show = false
+
+[params.hero]
+textColor = ""
+
+[params.fa]
+version = "5.7.2"
+integrity = "sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+
+[privacy]
+
+[privacy.googleAnalytics]
+anonymizeIP = true
+disable = false
+respectDoNotTrack = true
+useSessionStorage = false
+
+[privacy.instagram]
+disable = false
+simple = false
+
+[privacy.twitter]
+disable = false
+enableDNT = true
+simple = false
+
+[privacy.vimeo]
+disable = false
+simple = false
+
+[privacy.youtube]
+disable = false
+privacyEnhanced = true
+
+["params.contact"]
+email = "test@example.com"
+phone = "0000"
+skype = "testSkype"
+address = "testAddress"
