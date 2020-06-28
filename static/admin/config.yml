@@ -1,11 +1,19 @@
 backend:
   name: git-gateway
+site_url: https://quirky-yalow-e58f90.netlify.app
+display_url: prickly-paradigm.com
+publish_mode: editorial_workflow
+slug:
+    encoding: "ascii"
+    clean_accents: true
 media_folder: "static/images"
 public_folder: "/images"
 collections:
   - name: 'posts'
-    label: 'News'
-    folder: 'content/en/posts'
+    label: 'Posts'
+    label_singular: 'Post'
+    description: "Posts that go under the site's News page"
+    folder: 'content/posts'
     create: true
     slug: '{{slug}}'
     editor:
@@ -14,3 +22,24 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'settings'
+    label: 'Settings'
+    delete: false
+    editor:
+        preview: false
+    files:
+      - name: 'general'
+        label: 'Site Settings'
+        file: 'config.toml'
+        description: 'General Site Settings'
+        fields:
+          - {label: 'Site Title', name: 'title', widget: 'string'}
+          - {label: 'Pagination Break Point', name: 'paginate', widget: 'number', hint: 'Number of posts to display per page'}
+          - label: 'Contact Info'
+            name: 'params.contact'
+            widget: 'object'
+            fields:
+              - {label: 'Email', name: 'email', widget: 'string', pattern: ['[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+', "Must be a valid email address."]}
+              - {label: 'Phone number', name: 'phone', widget: 'string'}
+              - {label: 'Skype', name: 'skype', widget: 'string'}
+              - {label: 'Address', name: 'address', widget: 'string'}
