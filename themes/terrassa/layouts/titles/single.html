@@ -1,49 +1,43 @@
 {{ define "main" }}
-<article class="post">
-    <header class="post__header">
-        <h1 class="post__title">{{ .Title }}</h1>
-        {{ if .Description }}
-        <p class="post__subtitle">{{ .Description }}</p>
+<div class="pamphlet">
+<article class="pamphlet__content">
+    <header class="pamphlet__header">
+        <h1 class="pamphlet__title">{{ .Title }}{{ if .Params.Subtitle }}: {{ .Params.Subtitle }}{{ end }}</h1>
+        {{ if .Params.Number }}
+        <h2 class="pamphlet__number">Prickly Paradigm #{{ .Params.Number }}</h2>
         {{ end }}
-        {{ if ne .Type "page" }}
-        {{ if and $.Site.Params.posts.showDate $.Site.Params.posts.showAuthor }}
-        <p class="post__date date">
-            {{ if (eq .Language.Lang "th") }}
-                {{ .Date.Day }} {{ index $.Site.Data.thaiMonths (printf "%d" .Date.Month) }} {{ .Date.Year }}
-            {{ else }}
-                {{ dateFormat $.Site.Params.posts.dateFormat .Date }}
-            {{ end }} By {{ $.Params.author }}.
-        </p>
-        {{ else if $.Site.Params.posts.showDate }}
-        <p class="post__date date">
-            {{ if (eq .Language.Lang "th") }}
-                {{ .Date.Day }} {{ index $.Site.Data.thaiMonths (printf "%d" .Date.Month) }} {{ .Date.Year }}
-            {{ else }}
-                {{ dateFormat $.Site.Params.posts.dateFormat .Date }}
-            {{ end }}
-        </p>
-        {{ else if $.Site.Params.posts.showAuthor }}
-        <p class="post__author author">By {{ $.Params.author }}.</p>
-        {{ end }}
+        <h3 class="pamphlet__author author">{{ $.Params.author }}</h3>
+        {{ if .Params.Byline2 }}
+        <p class="pamphlet__byline2">{{ .Params.Byline2 }}</p>
         {{ end }}
     </header>
 
-    {{ if ne .Type "page" }}
-    <main class="post__body">
+    <main class="pamphlet__body">
         {{ .Content }}
+        {{ if .Params.isbn }}<div class="pamphlet__isbn">ISBN: {{ .Params.isbn }}</div>{{ end }}
+        {{ if .Params.pages }}<div class="pamphlet__pages">{{ .Params.Pages }} Pages</div>{{ end }}
+        {{ if or (.Params.notes) (.Params.toc) }}
+        <div class="pamphlet__downloads">
+            {{ if .Params.notes }}<div class="pamphlet__notes"><a href="{{ $.Site.BaseURL }}images/{{ .Params.Notes }}"><i class="fa fa-download"></i> Source Notes</a></div>{{ end }}
+            {{ if .Params.toc }}<div class="pamphlet__toc"><a href="{{ $.Site.BaseURL }}images/{{ .Params.toc }}"><i class="fa fa-download"></i> Table of Contents</a></div>{{ end }}
+        </div>
+        {{ end }}
+        <div class="pamphlet__buy">
+            <a href="{{ .Params.Exturl }}" target="_blank"><i class="fa fa-external-link-alt"></i> Order Now</a>
+        </div>
+        {{ if .Params.Translations }}
+        <div class="pamphlet__translations">
+            {{ range .Params.Translations }}
+            <div class="pamphlet__language">{{ .language }} -- {{ .native }} -- {{ .transurl }}</div>
+            {{ end }}
+        </div>
+        {{ end }}
     </main>
-    {{ else }}
-    <main class="post__body" style="margin-bottom: 3rem;">
-        {{ .Content }}
-    </main>
-    {{ end }}
-    {{ range .Params.Translations }}
-    {{ .language }} -- {{ .native }} -- {{ .transurl }}<br/>
-    {{ end }}
-    {{ if ne .Type "page" }}
-    <footer class="post__footer">
-        {{ .Render "tags" }}
-    </footer>
-    {{ end }}
 </article>
+{{ if .Params.Cover }}
+<div class="pamphlet__cover">
+    <img src="{{ $.Site.BaseURL }}images/{{ .Params.Cover }}" width="318" alt="{{ .Title }} Cover">
+</div>
+{{ end }}
+</div>
 {{ end }}

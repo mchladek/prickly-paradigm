@@ -217,7 +217,7 @@
 }
 
 .card__header__link {
-	color: var(--primary-text);
+	color: var(--accent);
 }
 
 .card__header__link:hover {
@@ -412,6 +412,71 @@
 
 .page-link {
 	color: var(--primary-text);
+}
+
+/* PAMPHLET */
+.pamphlet__content {
+	min-height: 90vh;
+	text-justify: distribute;
+}
+
+.pamphlet__header {
+	display: grid;
+	grid-template-areas: "title" "number" "author" "byline2";
+	grid-template-rows: auto;
+	justify-content: left;
+	padding: 0 10%;
+}
+
+.pamphlet__title {
+	grid-area: title;
+}
+
+.pamphlet__number {
+	grid-area: number;
+}
+
+.pamphlet__author {
+	grid-area: author;
+}
+
+.pamphlet__byline2 {
+	grid-area: byline2;
+}
+
+.pamphlet__body {
+	margin: 1.75rem 10% 0.75rem;
+}
+
+.pamphlet__cover {
+	padding: 0 10%;
+}
+
+@media (min-width:768px) {
+	.pamphlet {
+		display: grid;
+		grid-column-gap: 0.1rem;
+		grid-template-areas: 'description coverimg';
+		grid-template-columns: 3fr 1fr;
+		align-items: center;
+	}
+
+	.pamphlet__content {
+		grid-area: description;
+	}
+
+	.pamphlet__header {
+		padding: 0 5% 0 10%;
+	}
+
+	.pamphlet__body	{
+		margin: 1.75rem 5% 0.75rem 10%;
+	}
+
+	.pamphlet__cover {
+		grid-area: coverimg;
+		padding: 0 10% 0 5%;
+	}
 }
 
 /* CONTACT */
