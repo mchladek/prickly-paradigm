@@ -6,7 +6,7 @@
         {{ if .Params.Number }}
         <h2 class="pamphlet__number">Prickly Paradigm #{{ .Params.Number }}</h2>
         {{ end }}
-        <h3 class="pamphlet__author author">{{ $.Params.author }}</h3>
+        <h3 class="pamphlet__author">{{ $.Params.author }}</h3>
         {{ if .Params.Byline2 }}
         <p class="pamphlet__byline2">{{ .Params.Byline2 }}</p>
         {{ end }}
@@ -18,7 +18,7 @@
             {{ if .Params.isbn }}<div class="pamphlet__isbn">ISBN: {{ .Params.isbn }}</div>{{ end }}
             {{ if .Params.pages }}<div class="pamphlet__pages">{{ .Params.Pages }} Pages</div>{{ end }}
             <div class="pamphlet__buy">
-                <a class="ripple-btn" href="{{ .Params.Exturl }}" target="_blank"><i class="fa fa-external-link-alt"></i> Order Now</a>
+                <a class="ripple-btn order__btn" href="{{ .Params.Exturl }}" target="_blank"><i class="fa fa-external-link-alt"></i> Order Now</a>
             </div>
         </div>
         {{ if (or .Params.notes .Params.toc) }}
