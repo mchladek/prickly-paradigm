@@ -15,23 +15,24 @@
     <main class="pamphlet__body">
         {{ .Content }}
         <div class="pamphlet__details">
+            {{ if (or .Params.notes .Params.toc) }}
+                {{ if .Params.notes }}<div class="pamphlet__notes"><a href="{{ $.Site.BaseURL }}images/{{ .Params.Notes }}"><i class="fa fa-download"></i> Source Notes</a></div>{{ end }}
+                {{ if .Params.toc }}<div class="pamphlet__toc"><a href="{{ $.Site.BaseURL }}images/{{ .Params.toc }}"><i class="fa fa-download"></i> Table of Contents</a></div>{{ end }}
+            {{ end }}
             {{ if .Params.isbn }}<div class="pamphlet__isbn">ISBN: {{ .Params.isbn }}</div>{{ end }}
             {{ if .Params.pages }}<div class="pamphlet__pages">{{ .Params.Pages }} Pages</div>{{ end }}
             <div class="pamphlet__buy">
-                <a class="ripple-btn order__btn" href="{{ .Params.Exturl }}" target="_blank"><i class="fa fa-external-link-alt"></i> Order Now</a>
+                <a class="ripple-btn order__btn" href="{{ .Params.Exturl }}" target="_blank">Order Now</a>
             </div>
         </div>
-        {{ if (or .Params.notes .Params.toc) }}
-        <div class="pamphlet__files">
-            {{ if .Params.notes }}<div class="pamphlet__notes"><a class="ripple-btn-alt" href="{{ $.Site.BaseURL }}images/{{ .Params.Notes }}"><i class="fa fa-download"></i> Source Notes</a></div>{{ end }}
-            {{ if .Params.toc }}<div class="pamphlet__toc"><a class="ripple-btn-alt" href="{{ $.Site.BaseURL }}images/{{ .Params.toc }}"><i class="fa fa-download"></i> Table of Contents</a></div>{{ end }}
-        </div>
-        {{ end }}
         {{ if .Params.Translations }}
         <div class="pamphlet__translations">
-            {{ range .Params.Translations }}
-            <div class="pamphlet__language">{{ .language }} -- {{ .native }} -- {{ .transurl }}</div>
-            {{ end }}
+            <p class="pamphlet__translation__notice">{{ if .Params.transNotice }}{{ .Params.transNotice }}{{ else }}The following translations are also available:{{ end }}</p>
+            <div class="pamphlet__languages">
+                {{ range .Params.Translations }}
+                <div class="pamphlet__language"><a class="ripple-btn-alt translation__btn" href="{{ .transurl }}" target="_blank">{{ .native }}</a></div>
+                {{ end }}
+            </div>
         </div>
         {{ end }}
     </main>

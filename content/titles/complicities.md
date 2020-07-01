@@ -11,6 +11,7 @@ cover: "dirlik_cover.jpg"
 exturl: "https://press.uchicago.edu/ucp/books/book/distributed/C/bo26613819.html"
 notes: ""
 toc: ""
+transNotice: "The following translations of this title from the English are also available:"
 translations:
   - language: "Spanish"
     native: "Español"
