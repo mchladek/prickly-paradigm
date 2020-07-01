@@ -448,8 +448,38 @@
 	margin: 1.75rem 10% 0.75rem;
 }
 
+.pamphlet__details {
+	display: grid;
+	grid-template-areas: "isbn" "pages" "buy";
+	grid-template-rows: auto;
+	justify-content: left;
+	padding-top: 1rem;
+}
+
+.pamphlet__isbn {
+	grid-area: isbn;
+}
+
+.pamphlet__pages {
+	grid-area: pages;
+}
+
+.pamphlet__buy {
+	grid-area: buy;
+}
+
+.pamphlet__notes {
+	grid-area: notes;
+	padding: 0.5rem 0;
+}
+
+.pamphlet__toc {
+	grid-area: toc;
+	padding: 0.5rem 0;
+}
+
 .pamphlet__cover {
-	padding: 0 10%;
+	padding: 5% 10%;
 }
 
 @media (min-width:768px) {
@@ -471,6 +501,46 @@
 
 	.pamphlet__body	{
 		margin: 1.75rem 5% 0.75rem 10%;
+	}
+
+	.pamphlet__details {
+		display: grid;
+		grid-column-gap: 0.1rem;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto auto;
+	}
+
+	.pamphlet__isbn {
+		grid-column-start: 1;
+		grid-row-start: 1;
+	}
+
+	.pamphlet__pages {
+		grid-column-start: 1;
+		grid-row-start: 2;
+	}
+
+	.pamphlet__buy {
+		grid-column-start: 2;
+		grid-row-start: 1;
+		grid-row-end: span 2;
+		align-self: center;
+		justify-self: center;
+	}
+
+	.pamphlet__files {
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-template-rows: auto;
+		padding-top: 1.5rem;
+	}
+
+	.pamphlet__notes {
+		grid-column-start: 1;
+	}
+
+	.pamphlet__toc {
+		grid-column-start: 2;
 	}
 
 	.pamphlet__cover {
@@ -703,7 +773,7 @@
 	color: var(--white);
 }
 
-.ripple-btn::after {
+/*.ripple-btn::after {
 	background-image: radial-gradient(
 		circle,
 		var(--primary-light) 10%,
@@ -722,12 +792,31 @@
 	transform: scale(10, 10);
 	transition: transform 0.5s, opacity 1s;
 	width: 100%;
-}
+}*/
 
-.ripple-btn:active::after {
+.ripple-btn:active::after,
+.ripple-btn-alt:active::after {
 	opacity: 0.7;
 	transform: scale(0, 0);
 	transition: 0s;
+}
+
+.ripple-btn-alt {
+	background-color: var(--white);
+	border: var(--primary-dark) solid 0.1rem;
+	border-radius: 0.5rem;
+	color: var(--primary-dark);
+	overflow: hidden;
+	padding: 1rem 2rem;
+	position: relative;
+	transform: translate3d(0, 0, 0);
+	transition: all 0.25s;
+}
+
+.ripple-btn-alt:hover,
+.ripple-btn-alt:focus {
+	background-color: var(--primary-dark);
+	color: var(--white);
 }
 
 /* LANGUAGE SWITCHER */

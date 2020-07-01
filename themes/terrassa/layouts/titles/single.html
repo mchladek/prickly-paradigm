@@ -14,17 +14,19 @@
 
     <main class="pamphlet__body">
         {{ .Content }}
-        {{ if .Params.isbn }}<div class="pamphlet__isbn">ISBN: {{ .Params.isbn }}</div>{{ end }}
-        {{ if .Params.pages }}<div class="pamphlet__pages">{{ .Params.Pages }} Pages</div>{{ end }}
-        {{ if or (.Params.notes) (.Params.toc) }}
-        <div class="pamphlet__downloads">
-            {{ if .Params.notes }}<div class="pamphlet__notes"><a href="{{ $.Site.BaseURL }}images/{{ .Params.Notes }}"><i class="fa fa-download"></i> Source Notes</a></div>{{ end }}
-            {{ if .Params.toc }}<div class="pamphlet__toc"><a href="{{ $.Site.BaseURL }}images/{{ .Params.toc }}"><i class="fa fa-download"></i> Table of Contents</a></div>{{ end }}
+        <div class="pamphlet__details">
+            {{ if .Params.isbn }}<div class="pamphlet__isbn">ISBN: {{ .Params.isbn }}</div>{{ end }}
+            {{ if .Params.pages }}<div class="pamphlet__pages">{{ .Params.Pages }} Pages</div>{{ end }}
+            <div class="pamphlet__buy">
+                <a class="ripple-btn" href="{{ .Params.Exturl }}" target="_blank"><i class="fa fa-external-link-alt"></i> Order Now</a>
+            </div>
+        </div>
+        {{ if (or .Params.notes .Params.toc) }}
+        <div class="pamphlet__files">
+            {{ if .Params.notes }}<div class="pamphlet__notes"><a class="ripple-btn-alt" href="{{ $.Site.BaseURL }}images/{{ .Params.Notes }}"><i class="fa fa-download"></i> Source Notes</a></div>{{ end }}
+            {{ if .Params.toc }}<div class="pamphlet__toc"><a class="ripple-btn-alt" href="{{ $.Site.BaseURL }}images/{{ .Params.toc }}"><i class="fa fa-download"></i> Table of Contents</a></div>{{ end }}
         </div>
         {{ end }}
-        <div class="pamphlet__buy">
-            <a href="{{ .Params.Exturl }}" target="_blank"><i class="fa fa-external-link-alt"></i> Order Now</a>
-        </div>
         {{ if .Params.Translations }}
         <div class="pamphlet__translations">
             {{ range .Params.Translations }}
