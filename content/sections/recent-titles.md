@@ -1,7 +1,7 @@
 ---
 title : "Recent Titles"
 description: ""
-draft: true
+draft: false
 weight: 1
 carousel: true
 ---
