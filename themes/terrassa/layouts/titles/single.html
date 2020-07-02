@@ -16,8 +16,8 @@
         {{ .Content }}
         <div class="pamphlet__details">
             {{ if (or .Params.notes .Params.toc) }}
-                {{ if .Params.notes }}<div class="pamphlet__notes"><a href="{{ $.Site.BaseURL }}images/{{ .Params.Notes }}"><i class="fa fa-download"></i> Source Notes</a></div>{{ end }}
-                {{ if .Params.toc }}<div class="pamphlet__toc"><a href="{{ $.Site.BaseURL }}images/{{ .Params.toc }}"><i class="fa fa-download"></i> Table of Contents</a></div>{{ end }}
+                {{ if .Params.notes }}<div class="pamphlet__notes"><a href="{{ $.Site.BaseURL }}files/{{ .Params.Notes }}"><i class="fa fa-download"></i> Source Notes</a></div>{{ end }}
+                {{ if .Params.toc }}<div class="pamphlet__toc"><a href="{{ $.Site.BaseURL }}files/{{ .Params.toc }}"><i class="fa fa-download"></i> Table of Contents</a></div>{{ end }}
             {{ end }}
             {{ if .Params.isbn }}<div class="pamphlet__isbn">ISBN: {{ .Params.isbn }}</div>{{ end }}
             {{ if .Params.pages }}<div class="pamphlet__pages">{{ .Params.Pages }} Pages</div>{{ end }}
