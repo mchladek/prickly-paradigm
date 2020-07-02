@@ -1,6 +1,11 @@
 <section class="section">
+    <span class="anchor" id="section-{{ .Weight }}"></span>
     <h1 class="section__title">{{ .Title }}</h1>
+    {{ if .Params.Carousel }}
+    {{ partial "carousel.html" . }}
+    {{ else }}
     <div class="section__content">
         {{ .Content }}
     </div>
+    {{ end }}
 </section>

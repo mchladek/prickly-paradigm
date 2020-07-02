@@ -1,0 +1,10 @@
+<div class="section__carousel">
+    {{ $carousel_cards := where (where .Site.Pages "Type" "titles") ".Params.number" "!=" nil }}
+    {{ range first 3 ($carousel_cards.ByParam "number").Reverse }}
+    <div class="section__carousel__card">
+        <div class="section__carousel__cover"><a href="{{ .Permalink }}"><img src="{{ $.Site.BaseURL }}images/{{ .Params.Cover}}" width="178" alt="{{ .Title }} Cover"></a></div>
+        <div class="section__carousel__title"><a href="{{ .Permalink }}">{{ .Title }}{{ if .Params.Subtitle }}: {{ .Params.Subtitle }}{{ end }}</a></div>
+        <div class="section__carousel__author">{{ .Params.Author }}</div>
+    </div>
+    {{ end }}
+</div>
