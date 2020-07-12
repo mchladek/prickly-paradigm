@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
 site_url: https://quirky-yalow-e58f90.netlify.app
-display_url: prickly-paradigm.com
+logo_url: https://quirky-yalow-e58f90.netlify.app/images/logo.png
 publish_mode: editorial_workflow
 slug:
     encoding: "ascii"
@@ -33,17 +33,138 @@ collections:
         file: 'config.json'
         description: 'General Site Settings'
         fields:
+          - {label: 'Base URL', name: 'baseURL', widget: 'hidden'}
+          - {label: 'Site Language Code', name: 'languageCode', widget: 'hidden'}
+          - {label: 'Default Language', name: 'defaultContentLanguage', widget: 'hidden'}
           - {label: 'Site Title', name: 'title', widget: 'string'}
-          - {label: 'Pagination Break Point', name: 'paginate', widget: 'number', hint: 'Number of posts to display per page'}
+          - {label: 'Author', name: 'author', widget: 'string', hint: 'Who should be listed as the default author on new posts.', required: false}
+          - {label: 'Google Analytics ID', name: 'googleAnalytics', widget: 'string', hint: 'Tracking ID for Google Analytics. Leave blank to deactivate Google Analytics.', required: false}
+          - {label: 'Enable Robots TXT', name: 'enableRobotsTXT', widget: 'hidden', default: true, hint: 'Enable/disable generation of robots.txt file.'}
+          - {label: 'Pagination Break Point', name: 'paginate', widget: 'number', hint: 'Number of posts/titles to display per page.'}
+          - {label: 'Site Theme', name: 'theme', widget: 'hidden'}
           - label: 'Site Parameters'
             name: 'params'
             widget: 'object'
             fields:
+              - label: 'Description'
+                name: 'description'
+                widget: 'text'
+                required: false
+                hint: 'Description of site to be used in meta tag for site homepage.'
+              - label: 'Favicon'
+                name: 'favicon'
+                widget: 'file'
+                required: false
+                allow_multiple: false
+                hint: 'Website icon to be used by web browsers.'
+              - label: 'Site Logo'
+                name: 'logo'
+                widget: 'image'
+                required: false
+                default: 'images/logo.png'
+                allow_multiple: false
+                hint: 'Logo to be used at top of website.'
+              - label: 'Hero'
+                name: 'hero'
+                widget: 'object'
+                fields:
+                  - {label: 'Text Color', name: 'textColor', widget: 'string', hint: 'Color (hex code) to be used on Hero image. Leave blank for default color.', required: false}
+              - label: 'Call to Action (CTA)'
+                name: 'cta'
+                widget: 'object'
+                fields:
+                  - {label: 'Show CTA', name: 'show', widget: 'boolean', default: false, hint: 'Whether to show CTA button on hero image on homepage.'}
+                  - {label: 'CTA Text', name: 'cta', widget: 'string', default: 'About Us', hint: 'Text to display in CTA button.', required: false}
+                  - {label: 'CTA Link', name: 'link', widget: 'string', default: 'history', hint: 'Link (relative to Base URL) CTA button should go to.', required: false}
+              - label: 'Section Separators'
+                name: 'separator'
+                widget: 'object'
+                fields:
+                  - {label: 'Show Separator', name: 'show', widget: 'boolean', default: false, hint: 'Whether to show separating dot between sections on homepage.'}
+              - label: 'Font Awesome Settings'
+                name: 'fa'
+                widget: 'object'
+                fields:
+                  - {label: 'Version', name: 'version', widget: 'string', default: '5.7.2', hint: 'Version of Font Awesome to use.'}
+                  - {label: 'SHA Integrity', name: 'integrity', widget: 'string', default: 'sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP', hint: 'Integrity check for Font Awesome.'}
+              - label: 'Post Default Settings'
+                name: 'posts'
+                widget: 'object'
+                fields:
+                  - {label: 'Show Author', name: 'showAuthor', widget: 'boolean', default: false, hint: 'Whether to show Author on News posts.'}
+                  - {label: 'Show Tags', name: 'showTags', widget: 'boolean', default: true, hint: 'Whether to list tags assigned to each News post.'}
+                  - {label: 'Show Date', name: 'showDate', widget: 'boolean', default: true, hint: 'Whether to show the published date on each News post.'}
+                  - {label: 'Date Format', name: 'dateFormat', widget: 'string', default: '2 January 2006', hint: 'Format published date should be shown. Use January 2, 2006 to indicate format.'}
               - label: 'Contact Info'
                 name: 'contact'
                 widget: 'object'
                 fields:
-                  - {label: 'Email', name: 'email', widget: 'string', pattern: ['[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+', "Must be a valid email address."]}
-                  - {label: 'Phone number', name: 'phone', widget: 'string'}
-                  - {label: 'Skype', name: 'skype', widget: 'string'}
-                  - {label: 'Address', name: 'address', widget: 'string'}
+                  - {label: 'Email', name: 'email', widget: 'string', pattern: ['[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+', "Must be a valid email address."], required: false}
+                  - {label: 'Phone number', name: 'phone', widget: 'string', required: false}
+                  - {label: 'Skype', name: 'skype', widget: 'string', required: false}
+                  - {label: 'Address', name: 'address', widget: 'string', required: false}
+              - label: 'Social Media Links'
+                name: 'social'
+                widget: 'object'
+                fields:
+                  - {label: 'Twitter', name: 'twitter', widget: 'string', required: false, hint: 'Link to Twitter account page.'}
+                  - {label: 'Facebook', name: 'facebook', widget: 'string', required: false, hint: 'Link to Facebook account page.'}
+                  - {label: 'GitHub', name: 'github', widget: 'string', required: false, hint: 'Link to GitHub account page.'}
+                  - {label: 'GitLab', name: 'gitlab', widget: 'string', required: false, hint: 'Link to GitLab account page.'}
+                  - {label: 'CodePen', name: 'codepen', widget: 'string', required: false, hint: 'Link to CodePen account page.'}
+                  - {label: 'Instagram', name: 'instagram', widget: 'string', required: false, hint: 'Link to Instagram account page.'}
+                  - {label: 'Pinterest', name: 'pinterest', widget: 'string', required: false, hint: 'Link to Pinterest account page.'}
+                  - {label: 'YouTube', name: 'youtube', widget: 'string', required: false, hint: 'Link to YouTube account page.'}
+                  - {label: 'LinkedIn', name: 'linkedin', widget: 'string', required: false, hint: 'Link to LinkedIn account page.'}
+                  - {label: 'Weibo', name: 'weibo', widget: 'string', required: false, hint: 'Link to Weibo account page.'}
+                  - {label: 'Mastodon', name: 'mastodon', widget: 'string', required: false, hint: 'Link to Mastodon account page.'}
+                  - {label: 'Tumblr', name: 'tumblr', widget: 'string', required: false, hint: 'Link to Tumblr account page.'}
+                  - {label: 'Flickr', name: 'flickr', widget: 'string', required: false, hint: 'Link to Flickr account page.'}
+                  - {label: '500px', name: '"500px"', widget: 'string', required: false, hint: 'Link to 500px account page.'}
+              - label: 'Copyright Settings'
+                name: 'copy'
+                widget: 'object'
+                fields:
+                  - {label: 'Copyright Text', name: 'copy', widget: 'string', required: false, hint: 'Text to be displayed as copyright notice. Leave blank for default content.'}
+              - label: 'Language Switcher Settings'
+                name: 'languageSwitcher'
+                widget: 'hidden'
+                fields:
+                  - {label: 'Show Language Switcher', name: 'show', widget: 'hidden', default: false, hint: 'Whether to show language switcher in menu.'}
+          - label: 'Privacy Settings (GDPR)'
+            name: 'privacy'
+            widget: 'object'
+            fields:
+              - label: 'Google Analytics'
+                name: 'googleAnalytics'
+                widget: 'object'
+                fields:
+                  - {label: 'Anonymize IP', name: 'anonymizeIP', widget: 'boolean', default: true}
+                  - {label: 'Disable', name: 'disable', widget: 'boolean', default: false}
+                  - {label: 'Respect Do Not Track', name: 'respectDoNotTrack', widget: 'boolean', default: true}
+                  - {label: 'Use Session Storage', name: 'useSessionStorage', widget: 'boolean', default: false}
+              - label: 'Instagram'
+                name: 'instagram'
+                widget: 'object'
+                fields:
+                  - {label: 'Disable', name: 'disable', widget: 'boolean', default: false}
+                  - {label: 'Simple', name: 'simple', widget: 'boolean', default: false}
+              - label: 'Twitter'
+                name: 'twitter'
+                widget: 'object'
+                fields:
+                  - {label: 'Disable', name: 'disable', widget: 'boolean', default: false}
+                  - {label: 'Enable Do Not Track', name: 'enableDNT', widget: 'boolean', default: true}
+                  - {label: 'Simple', name: 'simple', widget: 'boolean', default: false}
+              - label: 'Vimeo'
+                name: 'vimeo'
+                widget: 'object'
+                fields:
+                  - {label: 'Disable', name: 'disable', widget: 'boolean', default: false}
+                  - {label: 'Simple', name: 'simple', widget: 'boolean', default: false}
+              - label: 'YouTube'
+                name: 'youtube'
+                widget: 'object'
+                fields:
+                  - {label: 'Disable', name: 'disable', widget: 'boolean', default: false}
+                  - {label: 'Enhanced Privacy', name: 'privacyEnhanced', widget: 'boolean', default: true}
