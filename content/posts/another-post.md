@@ -1,7 +1,13 @@
 ---
 title: "Another Post"
+description: ""
 date: 2020-06-29T18:41:50-05:00
+publishDate: 2020-06-29T18:41:50-05:00
+author: ""
+images: []
 draft: false
+tags: []
+show: true
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie augue ut leo pulvinar pellentesque. Nullam id volutpat mauris, eu tincidunt ante. Aenean dolor turpis, aliquam at turpis et, vulputate molestie tellus. Maecenas eu nunc velit. Vivamus ut nulla nec lacus semper mollis. In congue eleifend velit. Nullam cursus mi in tempor rhoncus. Nam eget vestibulum lorem. Duis efficitur porta odio, quis sagittis metus mattis a. Quisque vitae sapien id tortor tempus sagittis vel ac sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris auctor consectetur rhoncus.

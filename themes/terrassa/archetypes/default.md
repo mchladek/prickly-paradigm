@@ -7,4 +7,5 @@ author: "John Doe"
 images: []
 draft: true
 tags: []
+show: true
 ---
