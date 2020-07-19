@@ -20,13 +20,50 @@ collections:
     editor:
       preview: true
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Description', name: 'description', widget: 'text', hint: 'Brief summary of post.', required: false }
-      - { label: 'Creation Date', name: 'date', widget: 'hidden'}
-      - { label: 'Publish Date', name: 'publishDate', widget: 'datetime' }
-      - { label: 'Author', name: 'author', widget: 'string', required: false }
-      - { label: 'Page Image', name: 'images', widget: 'image', required: false, hint: 'Image to be used as page icon if shared.' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - {label: 'Title', name: 'title', widget: 'string', hint: 'Title of post.'}
+      - {label: 'Description', name: 'description', widget: 'text', hint: 'Brief summary of post.', required: false}
+      - {label: 'Date Created', name: 'date', widget: 'datetime', hint: 'Date post was originally created.'}
+      - {label: 'Date Published', name: 'publishDate', widget: 'datetime', hint: 'Date post was published. Update if updating post.'}
+      - {label: 'Author', name: 'author', widget: 'string', required: false}
+      - {label: 'Page Image', name: 'images', widget: 'image', required: false, hint: 'Image to be used as page icon if shared.'}
+      - {label: 'Draft', name: 'draft', widget: 'boolean', default: false, hint: 'Whether post should be marked as a draft and not displayed on public site.'}
+      - {label: 'Show in CMS', name: 'show', widget: 'hidden', default: true, hint: 'Whether post should be listed in CMS list of posts.'}
+      - {label: 'Body', name: 'body', widget: 'markdown'}
+  - name: 'titles'
+    label: 'Titles'
+    label_singular: 'Title'
+    description: "Books that go under the site's Titles page"
+    folder: 'content/titles'
+    create: true
+    filter: {field: 'show', value: true}
+    slug: '{{slug}}'
+    editor:
+        preview: false
+    fields:
+      - {label: 'Title', name: 'title', widget: 'string', hint: 'Title of book.'}
+      - {label: 'Subtitle', name: 'subtitle', widget: 'string', required: false, hint: 'Subtitle of book to appear after the title. The colon (:) between title and subtitle is automatically added.'}
+      - {label: 'Author(s)', name: 'author', widget: 'string', hint: 'Byline to be used for author(s).'}
+      - {label: 'Additional byline', name: 'byline2', widget: 'string', required: false, hint: "Additional byline to be displayed on book's page under the author(s) byline."}
+      - {label: 'Prickly Paradigm Volume Number', name: 'number', widget: 'number', hint: 'PPP number of book. Also used to place titles in order and get most recently published titles.'}
+      - {label: 'Pages', name: 'pages', widget: 'number', required: false, hint: 'Number of pages of book.'}
+      - {label: 'ISBN', name: 'ISBN', widget: 'string', required: false, hint: "Title's International Standard Book Number"}
+      - {label: 'Price', name: 'price', widget: 'string', required: false, hint: 'Price of book. Include currency symbol, too.'}
+      - {label: 'Meta Description', name: 'description', widget: 'text', required: false, hint: 'Brief summary of title to be used in meta tags. Not displayed on site.'}
+      - label: 'Cover'
+        name: 'cover'
+        widget: 'image'
+        required: false
+        allow_multiple: false
+        hint: 'Cover image of book. Image should be less than 2MB.'
+        media_library:
+          config:
+            max_file_size: 2097152
+      - {label: 'Purchase Link', name: 'exturl', widget: 'string', hint: 'Link to page where title can be purchased.'}
+      - {label: 'Source Notes File', name: 'notes', widget: 'file', required: false, allow_multiple: false, hint: 'File containing source notes to be linked to.'}
+      - {label: 'Table of Contents File', name: 'toc', widget: 'file', required: false, allow_multiple: false, hint: 'File containing table of contents to be linked to.'}
+      - {label: 'Draft', name: 'draft', widget: 'boolean', default: false, hint: 'Whether title should be marked as a draft and not displayed on public site.'}
+      - {label: 'Show in CMS', name: 'show', widget: 'hidden', default: true, hint: 'Whether post should be listed in CMS list of titles.'}
+      - {label: 'Description', name: 'body', widget: 'markdown', hint: "Copy to be displayed on a title's page."}
   - name: 'settings'
     label: 'Settings'
     delete: false

@@ -3,9 +3,7 @@
 <article class="pamphlet__content">
     <header class="pamphlet__header">
         <h1 class="pamphlet__title">{{ .Title }}{{ if .Params.Subtitle }}: {{ .Params.Subtitle }}{{ end }}</h1>
-        {{ if .Params.Number }}
         <h2 class="pamphlet__number">Prickly Paradigm #{{ .Params.Number }}</h2>
-        {{ end }}
         <h3 class="pamphlet__author">{{ $.Params.author }}</h3>
         {{ if .Params.Byline2 }}
         <p class="pamphlet__byline2">{{ .Params.Byline2 }}</p>

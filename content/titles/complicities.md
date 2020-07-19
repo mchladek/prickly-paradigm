@@ -20,6 +20,7 @@ translations:
     native: "Français"
     transurl: "https://www.example.com"
 draft: false
+show: true
 ---
 
 As the People’s Republic of China has grown in economic power, so too have concerns about what its sustained growth and expanding global influence might mean for the established global order. Explorations of this changing dynamic in daily reporting as well as most recent scholarship ignore the part played by forces emanating from the global capitalist system in the PRC’s failures as well as its successes.

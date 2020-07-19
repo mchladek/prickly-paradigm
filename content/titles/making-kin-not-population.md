@@ -13,6 +13,7 @@ exturl: "http://press.uchicago.edu/ucp/books/book/distributed/M/bo28583407.html"
 notes: "paradigm56notes_final.pdf"
 toc: "Making-Kin-Table-of-Contents-FINAL.docx"
 draft: false
+show: true
 ---
 
 As the planet’s human numbers grow and environmental concerns proliferate, natural scientists, economists, and policy-makers are increasingly turning to new and old questions about families and kinship as matters of concern. From government programs designed to fight declining birth rates in Europe and East Asia, to controversial policies seeking to curb population growth in countries where birth rates remain high, to increasing income inequality transnationally, issues of reproduction introduce new and complicated moral and political quandaries.

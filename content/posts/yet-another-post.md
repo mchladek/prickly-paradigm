@@ -3,6 +3,7 @@ title: Yet Another Post
 description: This is a brief summary of the post.
 publishDate: 2020-07-12T19:21:23.178Z
 author: Jane Doe
+show: true
 ---
 Nunc in augue magna. Donec commodo venenatis iaculis. Morbi pulvinar mi nisl, sit amet lobortis lorem ullamcorper id. Aliquam id varius magna, et accumsan eros. Quisque volutpat maximus commodo. Phasellus ac ligula sed purus condimentum accumsan nec rhoncus enim. Suspendisse ultrices, nunc ut molestie aliquet, erat eros vehicula ex, quis pellentesque sapien metus ac erat. Pellentesque ut magna ornare, placerat nibh a, laoreet metus.
 

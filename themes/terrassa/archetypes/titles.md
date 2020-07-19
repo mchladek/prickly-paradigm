@@ -13,4 +13,5 @@ exturl: ""
 notes: ""
 toc: ""
 draft: true
+show: true
 ---
