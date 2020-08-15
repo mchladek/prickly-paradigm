@@ -18,11 +18,9 @@
         var PostPreview = createClass({
             render: function() {
                 var entry = this.props.entry;
-                const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-                var modDate = entry.getIn(['data', 'lastMod']);
                 return h('div', {},
                   h('h1', {}, entry.getIn(['data', 'title'])),
-                  h('p', {"className": "date"}, modDate.getDate() + " " + months[modDate.getMonth()] + " " + modDate.getFullYear()),
+                  h('p', {"className": "date"}, etnry.getIn(['data', 'lastMod']),
                   h('p', {"className": "author"}, "By " + entry.getIn(['data', 'author'])),
                   h('p', {"className": "text"}, this.props.widgetFor('body'))
                 );
