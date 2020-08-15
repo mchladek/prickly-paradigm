@@ -20,7 +20,7 @@
                 var entry = this.props.entry;
                 return h('div', {},
                   h('h1', {}, entry.getIn(['data', 'title'])),
-                  h('p', {"className": "date"}, etnry.getIn(['data', 'lastMod']),
+                  h('p', {"className": "date"}, this.props.widgetFor('lastMod'),
                   h('p', {"className": "author"}, "By " + entry.getIn(['data', 'author'])),
                   h('p', {"className": "text"}, this.props.widgetFor('body'))
                 );
