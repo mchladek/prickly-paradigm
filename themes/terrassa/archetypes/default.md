@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 description: ""
 date: {{ .Date }}
-publishDate: {{ .Date }}
+lastMod: {{ .Date }}
 author: "John Doe"
 images: []
 draft: true

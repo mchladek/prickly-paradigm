@@ -1,7 +1,7 @@
 ---
 title: Yet Another Post
 description: This is a brief summary of the post.
-publishDate: 2020-07-12T19:21:23.178Z
+lastMod: 2020-07-12T19:21:23.178Z
 author: Jane Doe
 show: true
 ---

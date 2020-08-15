@@ -2,9 +2,6 @@
 <article class="post">
     <header class="post__header">
         <h1 class="post__title">{{ .Title }}</h1>
-        {{ if .Description }}
-        <p class="post__subtitle">{{ .Description }}</p>
-        {{ end }}
         {{ if ne .Type "page" }}
         {{ if and $.Site.Params.posts.showDate $.Site.Params.posts.showAuthor }}
         <p class="post__date date">
@@ -12,8 +9,9 @@
                 {{ .Date.Day }} {{ index $.Site.Data.thaiMonths (printf "%d" .Date.Month) }} {{ .Date.Year }}
             {{ else }}
                 {{ dateFormat $.Site.Params.posts.dateFormat .Date }}
-            {{ end }} By {{ $.Params.author }}.
+            {{ end }}
         </p>
+        <p class="post__author author">By {{ $.Params.author }}</p>
         {{ else if $.Site.Params.posts.showDate }}
         <p class="post__date date">
             {{ if (eq .Language.Lang "th") }}
@@ -23,7 +21,7 @@
             {{ end }}
         </p>
         {{ else if $.Site.Params.posts.showAuthor }}
-        <p class="post__author author">By {{ $.Params.author }}.</p>
+        <p class="post__author author">By {{ $.Params.author }}</p>
         {{ end }}
         {{ end }}
     </header>

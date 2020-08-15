@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    font-family:-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Ubuntu,Oxygen,Cantarell,open sans,helvetica neue,sans-serif;
+    font-kerning:auto;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-font-smoothing:antialised;
+    font-weight:400;
+    height:100vh;
+    hyphens:auto;
+    line-height:1.62;
+    overflow-wrap:break-word;
+    text-rendering:optimizeLegibility
+}
+
+body div {
+    margin-bottom: 1.1rem;
+}
+
+body h1 {
+    font-weight: inherit;
+    line-height: 1.2;
+}
+
+body .date {
+    font-size: .95rem;
+    font-weight: 400;
+}
+
+body .author {
+    font-size: .95rem;
+    font-weight: 400;
+}
+
+body .text {
+    text-align: justify;
+    margin: 1rem;
+}

@@ -2,7 +2,7 @@ backend:
   name: git-gateway
 site_url: https://quirky-yalow-e58f90.netlify.app
 logo_url: https://quirky-yalow-e58f90.netlify.app/images/logo.png
-publish_mode: editorial_workflow
+#publish_mode: editorial_workflow
 slug:
     encoding: "ascii"
     clean_accents: true
@@ -21,9 +21,9 @@ collections:
       preview: true
     fields:
       - {label: 'Title', name: 'title', widget: 'string', hint: 'Title of post.'}
-      - {label: 'Description', name: 'description', widget: 'text', hint: 'Brief summary of post.', required: false}
+      - {label: 'Description', name: 'description', widget: 'text', hint: 'Brief summary of post to be used in meta tags. (Not displayed on site.)', required: false}
       - {label: 'Date Created', name: 'date', widget: 'datetime', hint: 'Date post was originally created.'}
-      - {label: 'Date Published', name: 'publishDate', widget: 'datetime', hint: 'Date post was published. Update if updating post.'}
+      - {label: 'Date Last Modified', name: 'lastMod', widget: 'datetime', hint: 'Date post was last modified. Update if updating post.'}
       - {label: 'Author', name: 'author', widget: 'string', required: false}
       - {label: 'Page Image', name: 'images', widget: 'image', required: false, hint: 'Image to be used as page icon if shared.'}
       - {label: 'Draft', name: 'draft', widget: 'boolean', default: false, hint: 'Whether post should be marked as a draft and not displayed on public site.'}
@@ -48,7 +48,7 @@ collections:
       - {label: 'Pages', name: 'pages', widget: 'number', required: false, hint: 'Number of pages of book.'}
       - {label: 'ISBN', name: 'ISBN', widget: 'string', required: false, hint: "Title's International Standard Book Number"}
       - {label: 'Price', name: 'price', widget: 'string', required: false, hint: 'Price of book. Include currency symbol, too.'}
-      - {label: 'Meta Description', name: 'description', widget: 'text', required: false, hint: 'Brief summary of title to be used in meta tags. Not displayed on site.'}
+      - {label: 'Meta Description', name: 'description', widget: 'text', required: false, hint: 'Brief summary of title to be used in meta tags. (Not displayed on site.)'}
       - label: 'Cover'
         name: 'cover'
         widget: 'image'
