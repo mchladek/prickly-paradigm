@@ -7,7 +7,7 @@ pages: 84
 ISBN: "9780996635592"
 price: "$12.95"
 description: ""
-cover: "caille_cover.jpg"
+cover: "images/caille_cover.jpg"
 exturl: "https://press.uchicago.edu/ucp/books/book/distributed/G/bo50666401.html"
 notes: ""
 toc: ""

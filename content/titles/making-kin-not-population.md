@@ -8,7 +8,7 @@ pages: 120
 ISBN: "9780996635561"
 price: "$12.95"
 description: ""
-cover: "clarke_haraway_cover.jpg"
+cover: "images/clarke_haraway_cover.jpg"
 exturl: "http://press.uchicago.edu/ucp/books/book/distributed/M/bo28583407.html"
 notes: "paradigm56notes_final.pdf"
 toc: "Making-Kin-Table-of-Contents-FINAL.docx"

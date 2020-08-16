@@ -7,7 +7,7 @@ pages: 86
 ISBN: "9780996635547"
 price: "$12.95"
 description: ""
-cover: "sahlins_cover.jpg"
+cover: "images/sahlins_cover.jpg"
 exturl: "http://press.uchicago.edu/ucp/books/book/distributed/W/bo28583706.html"
 notes: ""
 toc: ""

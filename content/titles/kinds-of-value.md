@@ -7,7 +7,7 @@ pages: 72
 ISBN: "9780996635585"
 price: "$12.95"
 description: ""
-cover: "kockelman_cover.jpg"
+cover: "images/kockelman_cover.jpg"
 exturl: "https://press.uchicago.edu/ucp/books/book/distributed/K/bo50666392.html"
 notes: ""
 toc: ""

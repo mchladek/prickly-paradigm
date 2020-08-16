@@ -37,7 +37,7 @@
 </article>
 {{ if .Params.Cover }}
 <div class="pamphlet__cover">
-    <img src="{{ $.Site.BaseURL }}images/{{ .Params.Cover }}" width="318" alt="{{ .Title }} Cover">
+    <img src="{{ $.Site.BaseURL }}{{ .Params.Cover }}" width="318" alt="{{ .Title }} Cover">
 </div>
 {{ end }}
 </div>
