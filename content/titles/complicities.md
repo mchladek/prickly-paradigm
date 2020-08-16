@@ -17,7 +17,7 @@ pages: 86
 ISBN: "9780996635530"
 price: $12.95
 description: ""
-cover: /images/paradigm53_cover.jpg
+cover: images/paradigm53_cover.jpg
 exturl: https://press.uchicago.edu/ucp/books/book/distributed/C/bo26613819.html
 toc: ""
 show: true
