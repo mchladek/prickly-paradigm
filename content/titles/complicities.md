@@ -1,25 +1,25 @@
 ---
-title: "Complicities"
-subtitle: "The People's Republic of China in Global Capitalism"
-author: "Arif Dirlik"
+transNotice: "The following translations of this title from the English are also available:"
+notes: ""
+draft: false
+translations:
+  - language: Spanish
+    native: Español
+    transurl: https://www.example.com
+  - language: French
+    native: Français
+    transurl: https://www.example.com
+title: Complicities
+subtitle: The People's Republic of China in Global Capitalism
+author: Arif Dirlik
 number: 53
 pages: 86
 ISBN: "9780996635530"
-price: "$12.95"
+price: $12.95
 description: ""
-cover: "dirlik_cover.jpg"
-exturl: "https://press.uchicago.edu/ucp/books/book/distributed/C/bo26613819.html"
-notes: ""
+cover: /images/paradigm53_cover.jpg
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/C/bo26613819.html
 toc: ""
-transNotice: "The following translations of this title from the English are also available:"
-translations:
-  - language: "Spanish"
-    native: "Español"
-    transurl: "https://www.example.com"
-  - language: "French"
-    native: "Français"
-    transurl: "https://www.example.com"
-draft: false
 show: true
 ---
 
