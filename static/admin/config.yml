@@ -25,7 +25,7 @@ collections:
       - {label: 'Date Created', name: 'date', widget: 'datetime', dateFormat: 'DD MMMM YYYY', timeFormat: false, hint: 'Date post was originally created.'}
       - {label: 'Date Last Modified', name: 'lastMod', widget: 'datetime', dateFormat: 'DD MMMM YYYY', timeFormat: false, hint: 'Date post was last modified. Update if updating post.'}
       - {label: 'Author', name: 'author', widget: 'string', required: false}
-      - {label: 'Page Image', name: 'images', widget: 'image', required: false, hint: 'Image to be used as page icon if shared.'}
+      - {label: 'Images', name: 'images', widget: 'list', summary: '{{fields.image}}', field: {label: 'Image', name: 'image', widget: 'image'}, required: false, hint: 'Images to be used in post. First image used as page icon if shared.'}
       - {label: 'Draft', name: 'draft', widget: 'boolean', default: false, hint: 'Whether post should be marked as a draft and not displayed on public site.'}
       - {label: 'Show in CMS', name: 'show', widget: 'hidden', default: true, hint: 'Whether post should be listed in CMS list of posts.'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
@@ -77,9 +77,9 @@ collections:
     fields:
       - {label: 'Title', name: 'title', widget: 'string', hint: 'Title of page.'}
       - {label: 'Description', name: 'description', widget: 'text', required: false, hint: 'Brief summary of post to be used in meta tags. (Not displayed on site.)'}
-      - {label: 'Page Images', name: 'images', widget: 'image', required: false, hint: 'Images to be included in page. First is used as page icon if shared.'}
+      - {label: 'Images', name: 'images', widget: 'list', summary: '{{fields.image}}', field: {label: 'Image', name: 'image', widget: 'image'}, required: false, hint: 'Images to be used in page. First image used as page icon if shared.'}
       - {label: 'Draft', name: 'draft', widget: 'boolean', default: false, hint: 'Whether post should be marked as a draft and not displayed on public site.'}
-      - {label: 'Menu', name: 'menu', widget: 'text', default: 'main', hint: 'Name of site menu to include on. (Default is main menu.)'}
+      - {label: 'Menu', name: 'menu', widget: 'string', default: 'main', hint: 'Name of site menu to include on. (Default is main menu.)'}
       - {label: 'Weight', name: 'weight', widget: 'number', hint: 'Ordered place page should be listed in menu. Home, Titles, and News are hardcoded to be weighted 1, 2, and 3, respctively.'}
       - {label: 'Show in CMS', name: 'show', widget: 'hidden', default: true, hint: 'Whether post should be listed in CMS list of posts.'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
