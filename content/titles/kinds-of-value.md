@@ -1,14 +1,14 @@
 ---
-title: "Kinds of Value"
-subtitle: "An Experiment in Modal Anthropology"
-author: "Paul Kockelman"
+title: Kinds of Value
+subtitle: An Experiment in Modal Anthropology
+author: Paul Kockelman
 number: 58
 pages: 72
 ISBN: "9780996635585"
-price: "$12.95"
+price: $12.95
 description: ""
-cover: "images/kockelman_cover.jpg"
-exturl: "https://press.uchicago.edu/ucp/books/book/distributed/K/bo50666392.html"
+cover: images/paradigm58_cover.jpg
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/K/bo50666392.html
 notes: ""
 toc: ""
 draft: false
