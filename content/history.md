@@ -5,6 +5,7 @@ images: ["pic_history.jpg"]
 draft: false
 menu: main
 weight: 4
+show: true
 ---
 
 ## Our Prickly Past

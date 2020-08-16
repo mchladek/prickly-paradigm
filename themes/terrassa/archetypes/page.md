@@ -5,4 +5,5 @@ images: []
 draft: true
 menu: main
 weight: 0
+show: true
 ---

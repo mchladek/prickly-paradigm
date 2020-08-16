@@ -5,6 +5,7 @@ images: ["images/hero.png"]
 draft: false
 menu: main
 weight: 1
+show: false
 ---
 
 # Prickly Paradigm Press

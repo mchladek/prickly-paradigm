@@ -64,6 +64,25 @@ collections:
       - {label: 'Draft', name: 'draft', widget: 'boolean', default: false, hint: 'Whether title should be marked as a draft and not displayed on public site.'}
       - {label: 'Show in CMS', name: 'show', widget: 'hidden', default: true, hint: 'Whether post should be listed in CMS list of titles.'}
       - {label: 'Description', name: 'body', widget: 'markdown', hint: "Copy to be displayed on a title's page."}
+  - name: 'pages'
+    label: 'Pages'
+    label_singular: 'Page'
+    description: "Pages on the website's main menu"
+    folder: 'content'
+    create: true
+    filter: {field: 'show', value: true}
+    slug: '{{slug}}'
+    editor:
+        preview: true
+    fields:
+      - {label: 'Title', name: 'title', widget: 'string', hint: 'Title of page.'}
+      - {label: 'Description', name: 'description', widget: 'text', required: false, hint: 'Brief summary of post to be used in meta tags. (Not displayed on site.)'}
+      - {label: 'Page Images', name: 'images', widget: 'image', required: false, hint: 'Images to be included in page. First is used as page icon if shared.'}
+      - {label: 'Draft', name: 'draft', widget: 'boolean', default: false, hint: 'Whether post should be marked as a draft and not displayed on public site.'}
+      - {label: 'Menu', name: 'menu', widget: 'text', default: 'main', hint: 'Name of site menu to include on. (Default is main menu.)'}
+      - {label: 'Weight', name: 'weight', widget: 'number', hint: 'Ordered place page should be listed in menu. Home, Titles, and News are hardcoded to be weighted 1, 2, and 3, respctively.'}
+      - {label: 'Show in CMS', name: 'show', widget: 'hidden', default: true, hint: 'Whether post should be listed in CMS list of posts.'}
+      - {label: 'Body', name: 'body', widget: 'markdown'}
   - name: 'settings'
     label: 'Settings'
     delete: false
