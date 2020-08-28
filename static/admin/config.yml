@@ -9,26 +9,6 @@ slug:
 media_folder: "static/images"
 public_folder: "images"
 collections:
-  - name: 'posts'
-    label: 'Posts'
-    label_singular: 'Post'
-    description: "Posts that go under the site's News page"
-    folder: 'content/posts'
-    create: true
-    filter: {field: 'show', value: true}
-    slug: '{{slug}}'
-    editor:
-      preview: true
-    fields:
-      - {label: 'Title', name: 'title', widget: 'string', hint: 'Title of post.'}
-      - {label: 'Description', name: 'description', widget: 'text', hint: 'Brief summary of post to be used in meta tags. (Not displayed on site.)', required: false}
-      - {label: 'Date Created', name: 'date', widget: 'datetime', dateFormat: 'DD MMMM YYYY', timeFormat: false, hint: 'Date post was originally created.'}
-      - {label: 'Date Last Modified', name: 'lastMod', widget: 'datetime', dateFormat: 'DD MMMM YYYY', timeFormat: false, hint: 'Date post was last modified. Update if updating post.'}
-      - {label: 'Author', name: 'author', widget: 'string', required: false}
-      - {label: 'Images', name: 'images', widget: 'list', summary: '{{fields.image}}', field: {label: 'Image', name: 'image', widget: 'image'}, required: false, hint: 'Images to be used in post. First image used as page icon if shared.'}
-      - {label: 'Draft', name: 'draft', widget: 'boolean', default: false, hint: 'Whether post should be marked as a draft and not displayed on public site.'}
-      - {label: 'Show in CMS', name: 'show', widget: 'hidden', default: true, hint: 'Whether post should be listed in CMS list of posts.'}
-      - {label: 'Body', name: 'body', widget: 'markdown'}
   - name: 'titles'
     label: 'Titles'
     label_singular: 'Title'
@@ -64,6 +44,26 @@ collections:
       - {label: 'Draft', name: 'draft', widget: 'boolean', default: false, hint: 'Whether title should be marked as a draft and not displayed on public site.'}
       - {label: 'Show in CMS', name: 'show', widget: 'hidden', default: true, hint: 'Whether post should be listed in CMS list of titles.'}
       - {label: 'Description', name: 'body', widget: 'markdown', hint: "Copy to be displayed on a title's page."}
+  - name: 'posts'
+    label: 'Posts'
+    label_singular: 'Post'
+    description: "Posts that go under the site's News page"
+    folder: 'content/posts'
+    create: true
+    filter: {field: 'show', value: true}
+    slug: '{{slug}}'
+    editor:
+      preview: true
+    fields:
+      - {label: 'Title', name: 'title', widget: 'string', hint: 'Title of post.'}
+      - {label: 'Description', name: 'description', widget: 'text', hint: 'Brief summary of post to be used in meta tags. (Not displayed on site.)', required: false}
+      - {label: 'Date Created', name: 'date', widget: 'datetime', dateFormat: 'DD MMMM YYYY', timeFormat: false, hint: 'Date post was originally created.'}
+      - {label: 'Date Last Modified', name: 'lastMod', widget: 'datetime', dateFormat: 'DD MMMM YYYY', timeFormat: false, hint: 'Date post was last modified. Update if updating post.'}
+      - {label: 'Author', name: 'author', widget: 'string', required: false}
+      - {label: 'Images', name: 'images', widget: 'list', summary: '{{fields.image}}', field: {label: 'Image', name: 'image', widget: 'image'}, required: false, hint: 'Images to be used in post. First image used as page icon if shared.'}
+      - {label: 'Draft', name: 'draft', widget: 'boolean', default: false, hint: 'Whether post should be marked as a draft and not displayed on public site.'}
+      - {label: 'Show in CMS', name: 'show', widget: 'hidden', default: true, hint: 'Whether post should be listed in CMS list of posts.'}
+      - {label: 'Body', name: 'body', widget: 'markdown'}
   - name: 'pages'
     label: 'Pages'
     label_singular: 'Page'
@@ -82,6 +82,22 @@ collections:
       - {label: 'Menu', name: 'menu', widget: 'string', default: 'main', hint: 'Name of site menu to include on. (Default is main menu.)'}
       - {label: 'Weight', name: 'weight', widget: 'number', hint: 'Ordered place page should be listed in menu. Home, Titles, and News are hardcoded to be weighted 1, 2, and 3, respctively.'}
       - {label: 'Show in CMS', name: 'show', widget: 'hidden', default: true, hint: 'Whether post should be listed in CMS list of posts.'}
+      - {label: 'Body', name: 'body', widget: 'markdown'}
+  - name: 'sections'
+    label: 'Sections'
+    label_singular: 'Section'
+    description: "Sections of the main homepage"
+    folder: 'content/sections'
+    create: true
+    slug: '{{slug}}'
+    editor:
+        preview: false
+    fields:
+      - {label: 'Title', name: 'title', widget: 'string', hint: 'Title of section.'}
+      - {label: 'Description', name: 'description', widget: 'text', required: false, hint: 'Brief summary of the section. (Not displayed on site.)'}
+      - {label: 'Draft', name: 'draft', widget: 'boolean', default: false, hint: 'Whether section should be marked as a draft and not displayed on public site.'}
+      - {label: 'Order', name: 'weight', widget: 'number', hint: 'Order in which section should go on the homepage from the top. (Starts at 1.)'}
+      - {label: 'Recent Titles', name: 'carousel', widget: 'boolean', default: false, hint: 'Whether this section should be a carousel displaying recent titles. (If so, nothing should go in the body below.)'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
   - name: 'settings'
     label: 'Settings'
