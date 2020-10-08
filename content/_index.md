@@ -1,7 +1,7 @@
 ---
 title: "Home"
 description: ""
-images: ["images/hero.png"]
+images: ["images/background_1.jpg"]
 draft: false
 menu: main
 weight: 1
