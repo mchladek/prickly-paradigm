@@ -1,5 +1,5 @@
 ---
-title: "Contact"
+title: Contact
 description: ""
 images: []
 draft: false
@@ -43,7 +43,7 @@ Authors are strongly encouraged to familiarize themselves with one or more of ou
 - We do not publish manuscripts with extensive citations and footnotes
 - We do not publish fiction
 
-## Our Prickly Personnel
+## Masthead
 
 **Executive Publisher**\
 *Marshall Sahlins*
@@ -51,13 +51,13 @@ Authors are strongly encouraged to familiarize themselves with one or more of ou
 **Publishers**\
 *Peter Sahlins*\
 *Ramona Naddaf*\
-*Bernard Sahlins*\
 *Seminary Co-op Bookstore*
 
-**Editor**\
+**Executive Editor**\
 *Matthew Engelke*\
-<info@prickly-paradigm.com>
+<me2674@columbia.edu>
 
-**Manager**\
+**Managing Editors**\
 *Sean Dowdy*\
-<sdowdy@uchicago.edu>
+<sdowdy@uchicago.edu>\
+*Matthew Knisley*
