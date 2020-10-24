@@ -569,6 +569,7 @@
 	.pamphlet__buy {
 		grid-area: buy;
 		padding-top: 0;
+		justify-self: end;
 	}
 
 	.pamphlet__notes {
