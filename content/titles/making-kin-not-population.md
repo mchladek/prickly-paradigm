@@ -10,8 +10,8 @@ price: "$12.95"
 description: ""
 cover: "images/clarke_haraway_cover.jpg"
 exturl: "http://press.uchicago.edu/ucp/books/book/distributed/M/bo28583407.html"
-notes: "paradigm56notes_final.pdf"
-toc: "Making-Kin-Table-of-Contents-FINAL.docx"
+notes: "images/paradigm56notes_final.pdf"
+toc: "images/Making-Kin-Table-of-Contents-FINAL.docx"
 draft: false
 show: true
 ---
