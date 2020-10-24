@@ -107,7 +107,7 @@ collections:
     files:
       - name: 'general'
         label: 'Site Settings'
-        file: 'config.json'
+        file: 'config.toml'
         description: 'General Site Settings'
         fields:
           - {label: 'Base URL', name: 'baseURL', widget: 'hidden'}
