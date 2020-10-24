@@ -1,17 +1,18 @@
 ---
-title: "Making Kin Not Population"
+title: Making Kin Not Population
 subtitle: ""
-author: "Edited by Adele Clarke and Donna Haraway"
-byline2: "With contributions from: Adele E. Clarke, Ruha Benjamin, Donna Haraway, Michelle Murphy, Yu-Ling Huang, Chia-Ling Wu and Kim TallBear"
+author: Edited by Adele Clarke and Donna Haraway
+byline2: "With contributions from: Adele E. Clarke, Ruha Benjamin, Donna
+  Haraway, Michelle Murphy, Yu-Ling Huang, Chia-Ling Wu and Kim TallBear"
 number: 56
 pages: 120
 ISBN: "9780996635561"
-price: "$12.95"
+price: $12.95
 description: ""
-cover: "images/clarke_haraway_cover.jpg"
-exturl: "http://press.uchicago.edu/ucp/books/book/distributed/M/bo28583407.html"
-notes: "images/paradigm56notes_final.pdf"
-toc: "images/Making-Kin-Table-of-Contents-FINAL.docx"
+cover: images/paradigm56_cover.jpg
+exturl: http://press.uchicago.edu/ucp/books/book/distributed/M/bo28583407.html
+notes: images/paradigm56notes_final.pdf
+toc: images/Making-Kin-Table-of-Contents-FINAL.docx
 draft: false
 show: true
 ---
