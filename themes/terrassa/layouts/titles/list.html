@@ -1,8 +1,10 @@
 {{ define "main" }}
 <main class="content">
-	{{ $paginator := .Paginate (where .Data.Pages "Type" "titles") }}
+	{{ $titles := where .Pages "Type" "titles" }}
+	{{ $sorted := ($titles.ByParam "number").Reverse }}
+	{{ $paginator := .Paginate $sorted }}
 
-	{{ range ($paginator.Pages.ByParam "number").Reverse }}
+	{{ range $paginator.Pages }}
 	{{ .Render "card" }}
 	{{ end }}
 
