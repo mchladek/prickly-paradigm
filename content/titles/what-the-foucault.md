@@ -1,14 +1,14 @@
 ---
-title: "What the Foucault?"
+title: What the Foucault?
 subtitle: ""
-author: "Marshall Sahlins"
+author: Marshall Sahlins
 number: 54
 pages: 86
 ISBN: "9780996635547"
-price: "$12.95"
+price: $12.95
 description: ""
-cover: "images/sahlins_cover.jpg"
-exturl: "http://press.uchicago.edu/ucp/books/book/distributed/W/bo28583706.html"
+cover: images/paradigm54_cover.jpg
+exturl: http://press.uchicago.edu/ucp/books/book/distributed/W/bo28583706.html
 notes: ""
 toc: ""
 draft: false
