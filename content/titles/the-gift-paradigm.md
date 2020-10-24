@@ -1,14 +1,14 @@
 ---
-title: "The Gift Paradigm"
-subtitle: "A Short Introduction to the Anti-Utilitarian Movement in the Social Sciences"
-author: "Alain Caillé"
+title: The Gift Paradigm
+subtitle: A Short Introduction to the Anti-Utilitarian Movement in the Social Sciences
+author: Alain Caillé
 number: 57
 pages: 84
 ISBN: "9780996635592"
-price: "$12.95"
+price: $12.95
 description: ""
-cover: "images/caille_cover.jpg"
-exturl: "https://press.uchicago.edu/ucp/books/book/distributed/G/bo50666401.html"
+cover: images/paradigm57_cover.jpg
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/G/bo50666401.html
 notes: ""
 toc: ""
 draft: false
