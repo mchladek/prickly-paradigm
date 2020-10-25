@@ -1,12 +1,14 @@
 <article class="titlecard">
     <div class="titlecard__row">
         <div class="titlecard__cover">
-            <img src="{{ $.Site.BaseURL }}{{ .Params.Cover}}" width="178" alt="{{ .Title }} Cover">
+            <a href="{{ .Permalink }}" alt="{{ .Title }}">
+                <img src="{{ $.Site.BaseURL }}{{ .Params.Cover}}" width="178" alt="{{ .Title }} Cover">
+            </a>
         </div>
         <div class="titlecard__content">
             <header class="titlecard__header">
                 <h1 class="titlecard__header__title">
-                    <a href="{{ .Permalink }}" class="titlecard__header__link" alt="{{ .Title }}.">
+                    <a href="{{ .Permalink }}" class="titlecard__header__link" alt="{{ .Title }}">
                         {{ .Title | markdownify }}{{ if .Params.Subtitle }}: {{ .Params.Subtitle | markdownify }}{{ end }}
                     </a>
                 </h1>
