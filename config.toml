@@ -5,7 +5,7 @@ title = "Prickly Paradigm Press"
 author = "Prickly Paradigm"
 googleAnalytics = ""
 enableRobotsTXT = true
-paginate = 0
+paginate = 100
 theme = "terrassa"
 
 [params]
