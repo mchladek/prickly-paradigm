@@ -55,9 +55,13 @@ Authors are strongly encouraged to familiarize themselves with one or more of ou
 
 **Executive Editor**\
 *Matthew Engelke*\
-<me2674@columbia.edu>
+{{< rawhtml >}}
+<a href='mai&#108;to&#58;m%65&#50;6&#55;4&#64;col%75%6D&#98;&#105;a%&#50;&#69;e&#37;64%75'>me2674&#64;columbia&#46;edu</a>
+{{< /rawhtml >}}
 
 **Managing Editors**\
 *Sean Dowdy*\
-<sdowdy@uchicago.edu>\
+{{< rawhtml >}}
+<a href='m&#97;i&#108;to&#58;sd&#111;&#119;dy&#64;u%6&#51;%&#54;8icag&#37;6&#70;&#46;&#37;65d&#117;'>sd&#111;w&#100;y&#64;uchi&#99;a&#103;o&#46;&#101;d&#117;</a>
+{{< /rawhtml >}}\
 *Matthew Knisley*
