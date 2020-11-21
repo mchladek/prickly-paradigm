@@ -19,6 +19,7 @@
             {{ end }}
             {{ if .Params.isbn }}<div class="pamphlet__isbn">ISBN: {{ .Params.isbn }}</div>{{ end }}
             {{ if .Params.pages }}<div class="pamphlet__pages">{{ .Params.Pages }} Pages</div>{{ end }}
+            {{ if .Params.price }}<div class="pamphlet__price">{{ .Params.Price }}</div>{{ end }}
             <div class="pamphlet__buy">
                 <a class="ripple-btn order__btn" href="{{ .Params.Exturl }}" target="_blank">Order Now</a>
             </div>
