@@ -14,7 +14,7 @@ favicon = "images/favicon.ico"
 description = ""
 
 [params.contact]
-email = "info@prickly-paradigm.com"
+email = ""
 phone = ""
 skype = ""
 address = "5629 S University Ave, Chicago, IL 60637"

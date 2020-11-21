@@ -742,13 +742,16 @@
 	align-items: center;
 	display: flex;
 	grid-area: contact;
-	justify-content: space-around;
+	justify-content: flex-start;
+	padding: 1.75rem;
 	width: 100%;
 }
 
 .footer__contact__item {
 	color: var(--white);
 	margin: 0;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
 .footer__contact__item > span {
