@@ -15,16 +15,16 @@ A majority of Americans tell pollsters they want more government intervention to
 
 Rick Perlstein probes this central paradox of today's political scene in his penetrating pamphlet. Perlstein explains how the Democrats' obsessive short-term focus on winning "swing voters," instead of cultivating loyal party-liners, has relegated Democrats to political stagnation. Perlstein offers a vigorous critique and far-reaching vision that is a thirty-year plan for Democratic victory. 
 
-**Contributors:**
-William A. Galston
-Adolph Reed, Jr.
-Ruy Teixeira
-Dan Carol
-Daniel Cantor
-Robert B. Reich
-Michael C. Dawson
-Elaine Kamarck
-Richard Delgado
-Stanley Aronowitz
-Philip Klinkner
-Larry M. Bartels 
+**Contributors:**\
+William A. Galston\
+Adolph Reed, Jr.\
+Ruy Teixeira\
+Dan Carol\
+Daniel Cantor\
+Robert B. Reich\
+Michael C. Dawson\
+Elaine Kamarck\
+Richard Delgado\
+Stanley Aronowitz\
+Philip Klinkner\
+Larry M. Bartels
