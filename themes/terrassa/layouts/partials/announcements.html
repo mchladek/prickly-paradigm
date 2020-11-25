@@ -1,0 +1,9 @@
+<div class="section__announcements">
+    {{ $announcements := where (where .Site.Pages.ByDate.Reverse "Type" "posts") ".Params.show" true }}
+    {{ range first 3 $announcements }}
+    <div class="section__announcements__card">
+        <div class="section__announcements__title"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
+        <div class="section__announcements__content">{{ .Content | truncate 150 }} <a href="{{ .Permalink }}" class="titlecard__body__link" alt="{{ .Title }}">Read More</a></div>
+    </div>
+    {{ end }}
+</div>

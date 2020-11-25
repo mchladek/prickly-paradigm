@@ -3,6 +3,8 @@
     <h1 class="section__title">{{ .Title }}</h1>
     {{ if .Params.Carousel }}
     {{ partial "carousel.html" . }}
+    {{ else if .Params.Announcements }}
+    {{ partial "announcements.html" . }}
     {{ else }}
     <div class="section__content">
         {{ .Content }}

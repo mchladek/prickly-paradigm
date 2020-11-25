@@ -251,6 +251,31 @@
 	}
 }
 
+/* ANNOUNCEMENTS */
+.section__announcements {
+	text-align: center;
+}
+
+.section__announcements__card {
+	padding-top: 0.7rem;
+	padding-bottom: 1.3rem;
+}
+
+.section__announcements__title {
+	font-weight: 600;
+	line-height: 1.25rem;
+	margin: 0.5rem 0;
+}
+
+@media (min-width: 768px) {
+	.section__announcements {
+		display: grid;
+		grid-auto-flow: column;
+		grid-column-gap: 2rem;
+		justify-content: space-between;
+	}
+}
+
 /* CARD */
 .card {
 	margin-bottom: 1.75rem;

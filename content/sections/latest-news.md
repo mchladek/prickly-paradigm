@@ -4,6 +4,7 @@ description: ""
 draft: false
 weight: 1
 carousel: false
+announcements: true
 ---
 
 - News story brief description here with [link](https://example.com).
