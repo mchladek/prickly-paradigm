@@ -33,6 +33,7 @@ a:hover {
 body {
     color: var(--primary-text);
     text-align: justify;
+    padding-top: 93px;
 }
 
 figcaption {
@@ -76,5 +77,6 @@ textarea {
 @media (max-width:768px){
     body {
         text-align: left;
+        padding-top: 80px;
     }
 }

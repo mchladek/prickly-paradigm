@@ -4,4 +4,4 @@ function paddingHeader() {
     document.body.style.paddingTop = `${header.offsetHeight}px`;
 }
 
-window.addEventListener("load", paddingHeader);
+//window.addEventListener("load", paddingHeader);
