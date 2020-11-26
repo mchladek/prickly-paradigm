@@ -1,5 +1,5 @@
 ---
-title: "Another Post"
+title: "Another Announcement"
 description: ""
 date: 2020-06-29T18:41:50-05:00
 lastMod: 2020-06-29T18:41:50-05:00
