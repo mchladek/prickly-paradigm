@@ -770,6 +770,7 @@
 	display: flex;
 	justify-content: center;
 	min-height: 90vh;
+	flex-direction: column;
 }
 
 .notfound__title {
