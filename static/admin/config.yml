@@ -42,6 +42,7 @@ collections:
       - {label: 'Purchase Link', name: 'exturl', widget: 'string', hint: 'Link to page where title can be purchased.'}
       - {label: 'Source Notes File', name: 'notes', widget: 'file', required: false, allow_multiple: false, hint: 'File containing source notes to be linked to.'}
       - {label: 'Table of Contents File', name: 'toc', widget: 'file', required: false, allow_multiple: false, hint: 'File containing table of contents to be linked to.'}
+      - {label: 'Full Text File', name: 'fulltext', widget: 'file', required: false, allow_multiple: false, hint: 'File containing full text to be linked to.'}
       - {label: 'Draft', name: 'draft', widget: 'boolean', default: false, hint: 'Whether title should be marked as a draft and not displayed on public site.'}
       - {label: 'Show in CMS', name: 'show', widget: 'hidden', default: true, hint: 'Whether post should be listed in CMS list of titles.'}
       - {label: 'Description', name: 'body', widget: 'markdown', hint: "Copy to be displayed on a title's page."}

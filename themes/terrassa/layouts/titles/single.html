@@ -13,9 +13,10 @@
     <main class="pamphlet__body">
         {{ .Content }}
         <div class="pamphlet__details">
-            {{ if (or .Params.notes .Params.toc) }}
+            {{ if (or .Params.notes .Params.toc .Params.fulltext) }}
                 {{ if .Params.notes }}<div class="pamphlet__notes"><a href="{{ $.Site.BaseURL }}{{ .Params.Notes }}"><i class="fa fa-download"></i> Source Notes</a></div>{{ end }}
                 {{ if .Params.toc }}<div class="pamphlet__toc"><a href="{{ $.Site.BaseURL }}{{ .Params.toc }}"><i class="fa fa-download"></i> Table of Contents</a></div>{{ end }}
+                {{ if .Params.fulltext }}<div class="pamphlet__fulltext"><a href="{{ $.Site.BaseURL }}{{ .Params.fulltext }}"><i class="far fa-file-pdf"></i> Download Full Text</a></div>{{ end }}
             {{ end }}
             {{ if .Params.isbn }}<div class="pamphlet__isbn">ISBN: {{ .Params.isbn }}</div>{{ end }}
             {{ if .Params.pages }}<div class="pamphlet__pages">{{ .Params.Pages }} Pages</div>{{ end }}

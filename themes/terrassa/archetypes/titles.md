@@ -12,6 +12,7 @@ cover: ""
 exturl: ""
 notes: ""
 toc: ""
+fulltext: ""
 draft: true
 show: true
 ---
