@@ -1,9 +1,9 @@
 ---
-title: "Titles"
+title: "News"
 description: ""
 images: []
 draft: false
-menu: main
-weight: 2
+menu: ""
+weight: 0
 show: true
 ---
