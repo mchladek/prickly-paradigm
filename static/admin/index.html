@@ -10,6 +10,96 @@
   <body>
     <!-- Include the script that builds the page and powers Netlify CMS -->
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+    <!-- Add Hugo shortcodes to Netlify CMS editor -->
+    <script>
+        CMS.registerEditorComponent({
+            id: "youtube",
+            label: "YouTube",
+            fields: [{
+                name: "id",
+                label: "Youtube Video ID",
+                widget: "string"
+            }],
+            pattern: /{{< youtube (\S+) >}}/,
+            fromBlock: function(match) {
+                return {
+                    id: match[1],
+                };
+            },
+            toBlock: function(obj) {
+                return `{{< youtube ${obj.id} >}}`;
+            },
+            toPreview: function(obj) {
+                return `<img src="http://img.youtube.com/vi/${obj.id}/maxresdefault.jpg" alt="Youtube Video" />`;
+            },
+        });
+
+        CMS.registerEditorComponent({
+            id: "vimeo",
+            label: "Vimeo",
+            fields: [{
+                name: "shortcode",
+                label: "Vimeo Shortcode",
+                widget: "string"
+            }],
+            pattern: /{{< vimeo (\S+) >}}/,
+            fromBlock: function(match) {
+                return {
+                    shortcode: match[1],
+                };
+            },
+            toBlock: function(obj) {
+                return `{{< vimeo ${obj.shortcode} >}}`;
+            },
+            toPreview: function(obj) {
+                return `{{< vimeo ${obj.shortcode} >}}`;
+            },
+        });
+
+        CMS.registerEditorComponent({
+            id: "twitter",
+            label: "Twitter",
+            fields: [{
+                name: "tid",
+                label: "Tweet ID",
+                widget: "string"
+            }],
+            pattern: /{{< tweet (\S+) >}}/,
+            fromBlock: function(match) {
+                return {
+                    tid: match[1],
+                };
+            },
+            toBlock: function(obj) {
+                return `{{< tweet ${obj.tid} >}}`;
+            },
+            toPreview: function(obj) {
+                return `{{< tweet ${obj.tid} >}}`;
+            },
+        });
+
+        CMS.registerEditorComponent({
+            id: "instagram",
+            label: "Instagram",
+            fields: [{
+                name: "pid",
+                label: "Instagram Post ID",
+                widget: "string"
+            }],
+            pattern: /{{< instagram (\S+) >}}/,
+            fromBlock: function(match) {
+                return {
+                    pid: match[1],
+                };
+            },
+            toBlock: function(obj) {
+                return `{{< instagram ${obj.pid} >}}`;
+            },
+            toPreview: function(obj) {
+                return `{{< instagram ${obj.pid} >}}`;
+            },
+        });
+    </script>
     <!-- Use site's CSS for preview -->
     <script>
         CMS.registerPreviewStyle("/netlifycms.css");
