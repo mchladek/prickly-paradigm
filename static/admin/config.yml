@@ -82,7 +82,7 @@ collections:
       - {label: 'Images', name: 'images', widget: 'list', summary: '{{fields.image}}', field: {label: 'Image', name: 'image', widget: 'image'}, required: false, hint: 'Images to be used in page. First image used as page icon if shared.'}
       - {label: 'Draft', name: 'draft', widget: 'boolean', default: false, hint: 'Whether post should be marked as a draft and not displayed on public site.'}
       - {label: 'Menu', name: 'menu', widget: 'string', default: 'main', hint: 'Name of site menu to include on. (Default is main menu.)'}
-      - {label: 'Weight', name: 'weight', widget: 'number', hint: 'Ordered place page should be listed in menu. Home and Titles are hardcoded to be weighted 1 and 2, respctively.'}
+      - {label: 'Weight', name: 'weight', widget: 'number', hint: 'Ordered place page should be listed in menu.'}
       - {label: 'Show in CMS', name: 'show', widget: 'hidden', default: true, hint: 'Whether post should be listed in CMS list of posts.'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
   - name: 'sections'
@@ -108,6 +108,40 @@ collections:
     editor:
         preview: false
     files:
+      - name: 'titleSettings'
+        label: 'Titles Settings'
+        file: 'content/titles/_index.md'
+        fields:
+          - {label: 'Title', name: 'title', widget: 'string', hint: 'Title of Titles Main Page.'}
+          - {label: 'Description', name: 'description', widget: 'text', hint: 'Brief summary of main page for titles used in meta tags. (Not displayed on site.)', required: false}
+          - {label: 'Images', name: 'images', widget: 'list', summary: '{{fields.image}}', field: {label: 'Image', name: 'image', widget: 'image'}, required: false, hint: 'Images to be used on page. First image used as page icon if shared.'}
+          - {label: 'Draft', name: 'draft', widget: 'hidden', default: false, hint: 'Whether page should be marked as a draft and not displayed on public site.'}
+          - {label: 'Menu', name: 'menu', widget: 'string', default: 'main', hint: 'Name of site menu to include on. (Default is main menu.)'}
+          - {label: 'Weight', name: 'weight', widget: 'number', hint: 'Ordered place page should be listed in menu.'}
+          - {label: 'Show in CMS', name: 'show', widget: 'hidden', default: false, hint: 'Whether page should be listed in CMS list of posts.'}
+      - name: 'postSettings'
+        label: 'Posts Settings'
+        file: 'content/posts/_index.md'
+        fields:
+          - {label: 'Title', name: 'title', widget: 'string', hint: 'Title of Posts Main Page.'}
+          - {label: 'Description', name: 'description', widget: 'text', hint: 'Brief summary of main page for posts used in meta tags. (Not displayed on site.)', required: false}
+          - {label: 'Images', name: 'images', widget: 'list', summary: '{{fields.image}}', field: {label: 'Image', name: 'image', widget: 'image'}, required: false, hint: 'Images to be used on page. First image used as page icon if shared.'}
+          - {label: 'Draft', name: 'draft', widget: 'hidden', default: false, hint: 'Whether page should be marked as a draft and not displayed on public site.'}
+          - {label: 'Menu', name: 'menu', widget: 'string', default: 'main', hint: 'Name of site menu to include on. (Default is main menu.)'}
+          - {label: 'Weight', name: 'weight', widget: 'number', hint: 'Ordered place page should be listed in menu.'}
+          - {label: 'Show in CMS', name: 'show', widget: 'hidden', default: false, hint: 'Whether page should be listed in CMS list of posts.'}
+      - name: 'homeSettings'
+        label: 'Homepage Settings'
+        file: 'content/_index.md'
+        fields:
+          - {label: 'Title', name: 'title', widget: 'string', hint: 'Title of Homepage.'}
+          - {label: 'Description', name: 'description', widget: 'text', hint: 'Brief summary of main page for posts used in meta tags. (Not displayed on site.)', required: false}
+          - {label: 'Images', name: 'images', widget: 'list', summary: '{{fields.image}}', field: {label: 'Image', name: 'image', widget: 'image'}, required: false, hint: 'Images to be used on page. First image used as page icon if shared.'}
+          - {label: 'Draft', name: 'draft', widget: 'hidden', default: false, hint: 'Whether page should be marked as a draft and not displayed on public site.'}
+          - {label: 'Menu', name: 'menu', widget: 'string', default: 'main', hint: 'Name of site menu to include on. (Default is main menu.)'}
+          - {label: 'Weight', name: 'weight', widget: 'number', hint: 'Ordered place page should be listed in menu.'}
+          - {label: 'Show in CMS', name: 'show', widget: 'hidden', default: false, hint: 'Whether page should be listed in CMS list of posts.'}
+          - {label: 'Body', name: 'body', widget: 'markdown'}
       - name: 'general'
         label: 'Site Settings'
         file: 'config.toml'

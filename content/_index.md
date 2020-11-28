@@ -5,7 +5,7 @@ images: ["images/background_1.jpg"]
 draft: false
 menu: main
 weight: 1
-show: true
+show: false
 ---
 
 # Prickly Paradigm Press

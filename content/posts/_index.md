@@ -1,9 +1,9 @@
 ---
-title: "News"
+title: "Posts"
 description: ""
 images: []
 draft: false
 menu: ""
 weight: 0
-show: true
+show: false
 ---
