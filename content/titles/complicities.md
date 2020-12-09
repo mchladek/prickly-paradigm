@@ -1,14 +1,4 @@
 ---
-transNotice: "The following translations of this title from the English are also available:"
-notes: ""
-draft: false
-translations:
-  - language: Spanish
-    native: Español
-    transurl: https://www.example.com
-  - language: French
-    native: Français
-    transurl: https://www.example.com
 title: Complicities
 subtitle: The People's Republic of China in Global Capitalism
 author: Arif Dirlik
@@ -20,6 +10,8 @@ description: ""
 cover: images/paradigm53_cover.jpg
 exturl: https://press.uchicago.edu/ucp/books/book/distributed/C/bo26613819.html
 toc: ""
+notes: ""
+draft: false
 show: true
 ---
 
