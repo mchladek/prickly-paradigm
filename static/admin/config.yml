@@ -101,7 +101,7 @@ collections:
       - {label: 'Order', name: 'weight', widget: 'number', hint: 'Order in which section should go on the homepage from the top. (Starts at 1.)'}
       - {label: 'Recent Titles', name: 'carousel', widget: 'boolean', default: false, hint: 'Whether this section should be a carousel displaying recent titles. (If so, nothing should go in the body below.)'}
       - {label: 'Latest News', name: 'announcements', widget: 'boolean', default: false, hint: 'Whether this section should be a carousel displaying latest posts. (If so, nothing should go in the body below.)'}
-      - {label: 'Body', name: 'body', widget: 'markdown'}
+      - {label: 'Body', name: 'body', widget: 'markdown', required: false}
   - name: 'settings'
     label: 'Settings'
     delete: false
