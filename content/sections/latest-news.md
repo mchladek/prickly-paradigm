@@ -2,7 +2,7 @@
 title: Latest News
 description: ""
 draft: false
-weight: 1
+weight: 2
 carousel: false
 announcements: true
 ---
