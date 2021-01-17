@@ -40,7 +40,7 @@ linkedin = ""
 
 [params.cta]
 show = true
-cta = "Latest News"
+cta = "Recent Titles"
 link = "#section-1"
 
 [params.posts]
