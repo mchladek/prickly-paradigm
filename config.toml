@@ -45,7 +45,7 @@ link = "#section-1"
 
 [params.posts]
 showAuthor = false
-showDate = true
+showDate = false
 showTags = true
 dateFormat = "2 January 2006"
 
