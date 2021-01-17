@@ -1,8 +1,8 @@
 ---
-title : "Recent Titles"
+title: Recent Titles
 description: ""
 draft: false
-weight: 2
+weight: 1
 carousel: true
 announcements: false
 ---
