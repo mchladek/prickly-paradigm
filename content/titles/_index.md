@@ -1,9 +1,9 @@
 ---
-title: "Titles"
+title: Titles
 description: ""
 images: []
 draft: false
 menu: main
-weight: 2
+weight: 1
 show: false
 ---
