@@ -116,7 +116,7 @@ collections:
           - {label: 'Description', name: 'description', widget: 'text', hint: 'Brief summary of main page for titles used in meta tags. (Not displayed on site.)', required: false}
           - {label: 'Images', name: 'images', widget: 'list', summary: '{{fields.image}}', field: {label: 'Image', name: 'image', widget: 'image'}, required: false, hint: 'Images to be used on page. First image used as page icon if shared.'}
           - {label: 'Draft', name: 'draft', widget: 'hidden', default: false, hint: 'Whether page should be marked as a draft and not displayed on public site.'}
-          - {label: 'Menu', name: 'menu', widget: 'string', default: 'main', hint: 'Name of site menu to include on. (Default is main menu.)'}
+          - {label: 'Menu', name: 'menu', widget: 'string', default: 'main', required: false, hint: 'Name of site menu to include on. (Default is main menu.)'}
           - {label: 'Weight', name: 'weight', widget: 'number', hint: 'Ordered place page should be listed in menu.'}
           - {label: 'Show in CMS', name: 'show', widget: 'hidden', default: false, hint: 'Whether page should be listed in CMS list of posts.'}
       - name: 'postSettings'
@@ -127,7 +127,7 @@ collections:
           - {label: 'Description', name: 'description', widget: 'text', hint: 'Brief summary of main page for posts used in meta tags. (Not displayed on site.)', required: false}
           - {label: 'Images', name: 'images', widget: 'list', summary: '{{fields.image}}', field: {label: 'Image', name: 'image', widget: 'image'}, required: false, hint: 'Images to be used on page. First image used as page icon if shared.'}
           - {label: 'Draft', name: 'draft', widget: 'hidden', default: false, hint: 'Whether page should be marked as a draft and not displayed on public site.'}
-          - {label: 'Menu', name: 'menu', widget: 'string', default: 'main', hint: 'Name of site menu to include on. (Default is main menu.)'}
+          - {label: 'Menu', name: 'menu', widget: 'string', default: 'main', required: false, hint: 'Name of site menu to include on. (Default is main menu.)'}
           - {label: 'Weight', name: 'weight', widget: 'number', hint: 'Ordered place page should be listed in menu.'}
           - {label: 'Show in CMS', name: 'show', widget: 'hidden', default: false, hint: 'Whether page should be listed in CMS list of posts.'}
       - name: 'homeSettings'
@@ -138,7 +138,7 @@ collections:
           - {label: 'Description', name: 'description', widget: 'text', hint: 'Brief summary of main page for posts used in meta tags. (Not displayed on site.)', required: false}
           - {label: 'Images', name: 'images', widget: 'list', summary: '{{fields.image}}', field: {label: 'Image', name: 'image', widget: 'image'}, required: false, hint: 'Images to be used on page. First image used as page icon if shared.'}
           - {label: 'Draft', name: 'draft', widget: 'hidden', default: false, hint: 'Whether page should be marked as a draft and not displayed on public site.'}
-          - {label: 'Menu', name: 'menu', widget: 'string', default: 'main', hint: 'Name of site menu to include on. (Default is main menu.)'}
+          - {label: 'Menu', name: 'menu', widget: 'string', default: 'main', required: false, hint: 'Name of site menu to include on. (Default is main menu.)'}
           - {label: 'Weight', name: 'weight', widget: 'number', hint: 'Ordered place page should be listed in menu.'}
           - {label: 'Show in CMS', name: 'show', widget: 'hidden', default: false, hint: 'Whether page should be listed in CMS list of posts.'}
           - {label: 'Body', name: 'body', widget: 'markdown'}
