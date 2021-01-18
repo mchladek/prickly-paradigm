@@ -45,9 +45,9 @@ link = "#section-1"
 
 [params.posts]
 showAuthor = false
-showDate = false
+showDate = true
 showTags = true
-dateFormat = "2 January 2006"
+dateFormat = "January 2006"
 
 [params.copy]
 copy = ""

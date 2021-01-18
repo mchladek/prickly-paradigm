@@ -1,6 +1,6 @@
 ---
 title: Upcoming Title by James Ferguson
-date: 2020-12-02T00:41:50.000Z
+date: 2021-01-17T20:30:39.931Z
 lastMod: 2021-01-17T20:30:39.931Z
 author: ""
 images: []
