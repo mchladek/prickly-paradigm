@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
-site_url: https://quirky-yalow-e58f90.netlify.app
-logo_url: https://quirky-yalow-e58f90.netlify.app/images/logo.png
+site_url: https://www.prickly-paradigm.com
+logo_url: https://www.prickly-paradigm.com/images/logo.png
 #publish_mode: editorial_workflow
 slug:
     encoding: "ascii"
