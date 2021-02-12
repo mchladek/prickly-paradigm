@@ -1,7 +1,8 @@
 ---
 title: The Jewish Question Again
 author: Edited by Joyce Dalsheim and Gregory Starrett
-byline2: Holly Case, Jonathan Boyarin, Martin Land, and Gil Anidjar
+byline2: With contributions from Joyce Dalsheim, Gregory Starrett, Holly Case,
+  Jonathan Boyarin, Martin Land, and Gil Anidjar
 number: 59
 pages: 85
 ISBN: "97817346443503"
