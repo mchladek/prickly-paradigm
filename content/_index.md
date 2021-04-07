@@ -20,12 +20,12 @@ show: false
 
 ##### Founding Publisher of Prickly Paradigm Press.
 
-##### Our Teacher. Our Mentor. Our Dear Friend.
+<br><br>
 
 ##### His last prickly quip, shared with us on April 1st: "Prickly Paradigm: The press you cannot suppress."
 
-##### As we mourn his loss, we also renew our commitment to Marshall's paradigm: the unconventional, the rigorously anthropological, the radical and perpetual prickliness.
-
 ##### The work thus continues.
+
+<br><br>
 
 ##### Vale and Rest in Peace, Marshall.
