@@ -9,9 +9,10 @@ weight: 1
 show: false
 ---
 <br><br><br>
+
 # Prickly Paradigm Press
 
-![](images/sahlins_office_photo_ppp.png)<image size="75%">
+![](images/sahlins_office_photo_halfsize.png)
 
 ### **Marshall Sahlins, December 27, 1930 - April 5, 2021**
 
