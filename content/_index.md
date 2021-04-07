@@ -8,8 +8,7 @@ menu: main
 weight: 1
 show: false
 ---
-# `<br><br><br>`
-
+<br><br><br>
 # Prickly Paradigm Press
 
 ![](images/sahlins_office_photo_ppp.png)
