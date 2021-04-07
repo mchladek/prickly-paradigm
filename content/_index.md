@@ -8,6 +8,8 @@ menu: main
 weight: 1
 show: false
 ---
+# `<br><br><br>`
+
 # Prickly Paradigm Press
 
 ![](images/sahlins_office_photo_ppp.png)
@@ -16,12 +18,12 @@ show: false
 
 ##### Founding Publisher of Prickly Paradigm Press.
 
-##### Our Teacher. Our Mentor. Our Dear Friend. 
+##### Our Teacher. Our Mentor. Our Dear Friend.
 
 ##### His last prickly quip, shared with us on April 1st: "Prickly Paradigm: The press you cannot suppress."
 
-##### As we mourn his loss, we also renew our commitment to Marshall's paradigm: the unconventional, the rigorously anthropological, the radical and perpetual prickliness. 
+##### As we mourn his loss, we also renew our commitment to Marshall's paradigm: the unconventional, the rigorously anthropological, the radical and perpetual prickliness.
 
-##### The work thus continues. 
+##### The work thus continues.
 
 ##### Vale and Rest in Peace, Marshall.
