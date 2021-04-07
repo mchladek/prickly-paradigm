@@ -26,6 +26,8 @@ show: false
 
 ##### His last prickly quip, shared with us on April 1st: "Prickly Paradigm: The press you cannot suppress."
 
+<br><br>
+
 ##### The work thus continues.
 
 <br><br>
