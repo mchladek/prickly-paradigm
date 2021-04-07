@@ -18,6 +18,8 @@ show: false
 
 ### **Marshall Sahlins, December 27, 1930 - April 5, 2021**
 
+<br><br>
+
 ##### Founding Publisher of Prickly Paradigm Press.
 
 <br><br>
