@@ -16,7 +16,7 @@ show: false
 
 ![](images/sahlins_office_photo_halfsize.png)
 
-### **Marshall Sahlins, December 27, 1930 - April 5, 2021**
+## **Marshall D. Sahlins, December 27, 1930 - April 5, 2021**
 
 <br><br>
 
