@@ -10,9 +10,9 @@ show: false
 ---
 # Prickly Paradigm Press
 
-### **Marshall Sahlins, December 27, 1930 - April 5, 2021**
-
 ![](images/sahlins_office_photo_ppp.png)
+
+### **Marshall Sahlins, December 27, 1930 - April 5, 2021**
 
 ##### Founding Publisher of Prickly Paradigm Press.
 
