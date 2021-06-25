@@ -50,8 +50,7 @@ Authors are strongly encouraged to familiarize themselves with one or more of ou
 *Sean Dowdy*\
 {{< rawhtml >}}
 <a href='m&#97;i&#108;to&#58;sd&#111;&#119;dy&#64;u%6&#51;%&#54;8icag&#37;6&#70;&#46;&#37;65d&#117;'>sd&#111;w&#100;y&#64;uchi&#99;a&#103;o&#46;&#101;d&#117;</a>
-{{< /rawhtml >}}
-
+{{< /rawhtml >}}\
 *Matthew Knisley*
 
 **Editorial Assistants**\
