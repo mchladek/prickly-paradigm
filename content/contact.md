@@ -8,7 +8,7 @@ weight: 4
 show: true
 ---
 **Prickly Paradigm Press, LLC**\
-5629 South University Avenue\
+5751 S. Woodlawn Ave.\
 Chicago, Illinois 60637
 
 Prickly Paradigm welcomes correspondence. Please address all inquiries concerning manuscript submissions to the executive editor. Please address all inquiries for translation rights and reproduction rights to the associate editors.
