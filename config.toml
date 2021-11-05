@@ -14,7 +14,7 @@ favicon = "images/favicon.ico"
 description = "Prickly Paradigm Press, LLC is devoted to giving serious authors free rein to say what's right and what's wrong about their disciplines and about the world, including what's never been said before. The result is intellectuals unbound, writing unconstrained and creative texts about meaningful matters."
 
 [params.contact]
-email = ""
+email = "info@prickly-paradigm.com"
 phone = ""
 skype = ""
 address = "5751 S. Woodlawn Ave., Chicago, IL 60637"
