@@ -7,7 +7,7 @@ pages: 134
 ISBN: 978-0-9794057-4-7
 price: $12.95
 cover: images/paradigm34_cover.jpg
-exturl: http://www.amazon.com/American-Counterinsurgency-Human-Science-Terrain/dp/0979405742/ref=sr_1_1?s=books&ie=UTF8&qid=1282925772&sr=1-1
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/A/bo6899691.html
 draft: false
 show: true
 ---
