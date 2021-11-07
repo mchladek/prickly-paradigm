@@ -7,7 +7,7 @@ pages: 184
 ISBN: "9780976147527"
 price: $12.95
 cover: images/paradigm22_cover.jpg
-exturl: http://www.press.uchicago.edu/presssite/metadata.epl?mode=synopsis&bookkey=168737
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/N/bo3662324.html
 notes: images/mckinnon_notes_0.pdf
 draft: false
 show: true
