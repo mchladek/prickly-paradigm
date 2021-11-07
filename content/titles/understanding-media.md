@@ -4,10 +4,10 @@ subtitle: A Popular Philosophy
 author: Dominic Boyer
 number: 30
 pages: 103
-ISBN: 978-0979405709
+ISBN: "9780979405709"
 price: $12.95
 cover: images/paradigm30_cover.jpg
-exturl: http://www.amazon.com/Understanding-Media-Popular-Philosophy-Paradigm/dp/097940570X/ref=sr_1_1?ie=UTF8&s=books&qid=1283180505&sr=1-1-spell
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/U/bo5667199.html
 draft: false
 show: true
 ---
