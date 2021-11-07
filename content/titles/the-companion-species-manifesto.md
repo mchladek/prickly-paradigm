@@ -7,7 +7,7 @@ pages: 112
 ISBN: "9780971757585"
 price: $12.95
 cover: images/paradigm08_cover.jpg
-exturl: http://www.press.uchicago.edu/presssite/metadata.epl?mode=synopsis&bookkey=3645022
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/C/bo3645022.html
 draft: false
 show: true
 ---
