@@ -7,7 +7,7 @@ pages: 104
 ISBN: "9780972819657"
 price: $12.95
 cover: images/paradigm15_cover.jpg
-exturl: http://www.press.uchicago.edu/presssite/metadata.epl?isbn=9780972819657
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/E/bo3618387.html
 draft: false
 show: true
 ---
