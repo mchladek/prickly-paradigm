@@ -6,7 +6,7 @@ pages: 118
 ISBN: "9780972819640"
 price: $12.95
 cover: images/paradigm14_cover.jpg
-exturl: http://www.press.uchicago.edu/presssite/metadata.epl?isbn=9780972819640
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/F/bo3640795.html
 fulltext: images/graeber_ppp_14_0.pdf
 draft: false
 show: true
