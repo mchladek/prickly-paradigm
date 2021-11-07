@@ -3,10 +3,10 @@ title: Pasta and Pizza
 author: Franco La Cecla
 number: 31
 pages: 122
-ISBN: 978-0-9794057-1-6
+ISBN: "9780979405716"
 price: $12.95
 cover: images/paradigm31_cover.jpg
-exturl: http://www.amazon.com/Pasta-Pizza-Paradigm-Franco-Cecla/dp/0979405718/ref=sr_1_1?s=books&ie=UTF8&qid=1283180252&sr=1-1
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/P/bo5667202.html
 draft: false
 show: true
 ---
