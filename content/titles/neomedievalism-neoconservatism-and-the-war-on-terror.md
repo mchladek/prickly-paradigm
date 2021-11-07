@@ -3,10 +3,10 @@ title: Neomedievalism, Neoconservatism, and the War on Terror
 author: Bruce Holsinger
 number: 29
 pages: 117
-ISBN: 0-9761475-9-9
+ISBN: "9780976147596"
 price: $12.95
 cover: images/paradigm29_cover.jpg
-exturl: http://www.press.uchicago.edu/presssite/metadata.epl?mode=synopsis&bookkey=229378
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/N/bo5456671.html
 draft: false
 show: true
 ---
