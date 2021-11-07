@@ -6,7 +6,7 @@ pages: 104
 ISBN: "9780972819626"
 price: $12.95
 cover: images/paradigm12_cover.jpg
-exturl: http://www.press.uchicago.edu/presssite/metadata.epl?isbn=9780972819626
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/R/bo3614917.html
 notes: images/price_notes_0.pdf
 fulltext: images/prices_paradigm12_0.pdf
 draft: false
