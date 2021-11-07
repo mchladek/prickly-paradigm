@@ -7,7 +7,7 @@ pages: 136
 ISBN: "9780972819671"
 price: $12.95
 cover: images/paradigm16_cover.jpg
-exturl: http://www.press.uchicago.edu/presssite/metadata.epl?isbn=9780972819671
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/E/bo3625761.html
 draft: false
 show: true
 ---
