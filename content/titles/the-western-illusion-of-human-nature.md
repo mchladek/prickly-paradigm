@@ -3,10 +3,10 @@ title: The Western Illusion of Human Nature
 author: Marshall Sahlins
 number: 32
 pages: 112
-ISBN: 978-0-9794057-2-3
+ISBN: "9780979405723"
 price: $12.95
 cover: images/paradigm32_cover.jpg
-exturl: http://www.amazon.com/Western-Illusion-Human-Nature-Reflections/dp/0979405726/ref=sr_1_1?s=books&ie=UTF8&qid=1283180120&sr=1-1
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/W/bo5891444.html
 draft: false
 show: true
 ---
