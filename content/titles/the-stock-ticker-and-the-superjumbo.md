@@ -7,7 +7,7 @@ pages: 128
 ISBN: "9780976147503"
 price: $12.95
 cover: images/paradigm20_cover.jpg
-exturl: http://www.press.uchicago.edu/presssite/metadata.epl?mode=synopsis&bookkey=156045
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/S/bo3534986.html
 draft: false
 show: true
 ---
