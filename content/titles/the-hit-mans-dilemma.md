@@ -7,7 +7,7 @@ pages: 128
 ISBN: "9780972819688"
 price: $12.95
 cover: images/paradigm18_cover.jpg
-exturl: http://www.press.uchicago.edu/presssite/metadata.epl?isbn=9780972819688
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/H/bo3534998.html
 fulltext: images/hart_paradigm18.pdf
 draft: false
 show: true
