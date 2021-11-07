@@ -7,7 +7,7 @@ pages: 100
 ISBN: "9780976147534"
 price: $12.95
 cover: images/paradigm23_cover.jpg
-exturl: http://www.press.uchicago.edu/presssite/metadata.epl?mode=synopsis&bookkey=190383
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/P/bo3793381.html
 draft: false
 show: true
 ---
