@@ -7,7 +7,7 @@ pages: 130
 ISBN: 0-9761475-5-6
 price: $12.95
 cover: images/paradigm26_cover.jpg
-exturl: http://prickly-paradigm.com/titles/reading-legitimation-crisis-tehran-iran-and-future-liberalism.html
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/R/bo4343049.html
 draft: false
 show: true
 ---
