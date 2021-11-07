@@ -4,7 +4,7 @@ subtitle: Human Science and the Human Terrain
 author: Roberto González
 number: 34
 pages: 134
-ISBN: 978-0-9794057-4-7
+ISBN: "9780979405747"
 price: $12.95
 cover: images/paradigm34_cover.jpg
 exturl: https://press.uchicago.edu/ucp/books/book/distributed/A/bo6899691.html
