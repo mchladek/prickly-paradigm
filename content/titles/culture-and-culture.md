@@ -7,7 +7,7 @@ pages: 80
 ISBN: 0-9761475-6-4
 price: $12.95
 cover: images/paradigm27_cover.jpg
-exturl: http://prickly-paradigm.com/titles/culture-and-culture-traditional-knowledge-and-intellectual-rights-0.html
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/C/bo4342955.html
 draft: false
 show: true
 ---
