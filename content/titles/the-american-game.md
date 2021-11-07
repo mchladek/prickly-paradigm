@@ -7,7 +7,7 @@ pages: 175
 ISBN: 0-9761475-5-6
 price: $12.95
 cover: images/paradigm25_cover.jpg
-exturl: http://www.press.uchicago.edu/presssite/metadata.epl?mode=synopsis&bookkey=3793391
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/A/bo3793391.html
 draft: false
 show: true
 ---
