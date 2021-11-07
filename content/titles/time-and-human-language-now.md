@@ -3,10 +3,10 @@ title: Time and Human Language Now
 author: Jonathan Boyarin and Martin Land
 number: 33
 pages: 104
-ISBN: 978-09794057-3-0
+ISBN: "9780979405730"
 price: $12.95
 cover: images/paradigm33_cover.jpg
-exturl: http://www.amazon.com/Time-Human-Language-Jonathan-Boyarin/dp/0979405734/ref=sr_1_11?ie=UTF8&s=books&qid=1282924755&sr=8-11
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/T/bo6166726.html
 draft: false
 show: true
 ---
