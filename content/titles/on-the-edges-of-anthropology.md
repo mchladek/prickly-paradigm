@@ -7,7 +7,7 @@ pages: 144
 ISBN: "9780972819602"
 price: $12.95
 cover: images/paradigm10_cover.jpg
-exturl: http://www.press.uchicago.edu/presssite/metadata.epl?mode=synopsis&bookkey=3638454
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/O/bo3638454.html
 fulltext: images/clifford_paradigm10.pdf
 draft: false
 show: true
