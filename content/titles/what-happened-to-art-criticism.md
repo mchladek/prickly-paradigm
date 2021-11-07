@@ -6,7 +6,7 @@ pages: 100
 ISBN: "9780972819633"
 price: $12.95
 cover: images/paradigm13_cover.jpg
-exturl: http://www.press.uchicago.edu/presssite/metadata.epl?mode=synopsis&bookkey=3620182
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/W/bo3620182.html
 draft: false
 show: true
 ---
