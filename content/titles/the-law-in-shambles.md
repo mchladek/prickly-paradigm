@@ -6,7 +6,7 @@ pages: 152
 ISBN: "9780972819695"
 price: $12.95
 cover: images/paradigm19_cover.jpg
-exturl: http://www.press.uchicago.edu/presssite/metadata.epl?mode=synopsis&bookkey=3534992
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/L/bo3534992.html
 draft: false
 show: true
 ---
