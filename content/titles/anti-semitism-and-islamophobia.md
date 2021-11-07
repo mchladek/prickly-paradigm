@@ -7,7 +7,7 @@ pages: 128
 ISBN: 0-9761475-8-0
 price: $12.95
 cover: images/paradigm28_cover.jpg
-exturl: http://www.press.uchicago.edu/presssite/metadata.epl?mode=synopsis&bookkey=229371
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/A/bo5456667.html
 draft: false
 show: true
 ---
