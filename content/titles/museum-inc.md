@@ -7,7 +7,7 @@ pages: 88
 ISBN: "9780976147510"
 price: $12.95
 cover: images/paradigm21_cover.jpg
-exturl: http://www.press.uchicago.edu/presssite/metadata.epl?mode=synopsis&bookkey=168728
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/M/bo3662320.html
 draft: false
 show: true
 ---
