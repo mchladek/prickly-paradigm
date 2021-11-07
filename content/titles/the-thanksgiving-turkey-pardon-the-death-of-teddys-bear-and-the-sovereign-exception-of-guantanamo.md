@@ -7,7 +7,7 @@ pages: 88
 ISBN: "9780972819619"
 price: $12.95
 cover: images/paradigm11_cover.jpg
-exturl: http://www.press.uchicago.edu/presssite/metadata.epl?mode=synopsis&bookkey=3645265
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/T/bo3645265.html
 fulltext: images/fiskesjo_paradigm11_0.pdf
 draft: false
 show: true
