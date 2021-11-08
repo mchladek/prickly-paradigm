@@ -3,10 +3,10 @@ title: Pacification and its Discontents
 author: Kurt Jacobsen
 number: 38
 pages: 115
-ISBN: 978-0-9794057-8-5
+ISBN: "9780979405785"
 price: $12.95
 cover: images/paradigm38_cover.jpg
-exturl: http://www.amazon.com/Pacification-its-Discontents-Kurt-Jacobsen/dp/0979405785/ref=sr_1_13?ie=UTF8&s=books&qid=1282925223&sr=8-13
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/P/bo8364911.html
 draft: false
 show: true
 ---
