@@ -7,7 +7,7 @@ pages: 100
 ISBN: "9780979405778"
 price: $12.95
 cover: images/paradigm37_cover.jpg
-exturl: http://www.amazon.com/Science-Passionate-Interests-Introduction-Anthropology/dp/0979405777/ref=sr_1_11?ie=UTF8&s=books&qid=1282924298&sr=8-11
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/S/bo8364907.html
 notes: images/prickly_paradigm_37_notes.pdf
 draft: false
 show: true
