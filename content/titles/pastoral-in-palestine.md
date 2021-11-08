@@ -6,7 +6,7 @@ pages: 122
 ISBN: "9780984201037"
 price: $12.95
 cover: images/paradigm43_cover.jpg
-exturl: http://press.uchicago.edu/ucp/books/book/distributed/P/bo16019228.html
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/P/bo16019228.html
 draft: false
 show: true
 ---
