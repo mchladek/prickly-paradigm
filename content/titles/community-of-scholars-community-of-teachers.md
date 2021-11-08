@@ -6,7 +6,7 @@ pages: 92
 ISBN: "9780984201099"
 price: $12.95
 cover: images/paradigm50_cover.jpg
-exturl: http://press.uchicago.edu/ucp/books/book/distributed/C/bo23759063.html
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/C/bo23759063.html
 draft: false
 show: true
 ---
