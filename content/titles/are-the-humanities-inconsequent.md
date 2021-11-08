@@ -4,10 +4,10 @@ subtitle: Or, Marx's Riddle of the Dog
 author: Jerome McGann
 number: 36
 pages: 96
-ISBN: 978-0-9794057-6-1
+ISBN: "9780979405761"
 price: $12.95
 cover: images/paradigm36_cover.jpg
-exturl: http://www.amazon.com/Are-Humanities-Inconsequent-Interpreting-Riddle/dp/0979405769/ref=sr_1_5?ie=UTF8&s=books&qid=1283179996&sr=8-5
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/A/bo6899699.html
 draft: false
 show: true
 ---
