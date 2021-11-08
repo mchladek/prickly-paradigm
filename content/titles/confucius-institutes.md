@@ -7,7 +7,7 @@ pages: 90
 ISBN: "9780984201082"
 price: $12.95
 cover: images/paradigm48_cover.jpg
-exturl: http://press.uchicago.edu/ucp/books/book/distributed/C/bo20637267.html
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/C/bo20637267.html
 draft: false
 show: true
 ---
