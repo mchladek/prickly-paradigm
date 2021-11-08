@@ -6,7 +6,7 @@ pages: 130
 ISBN: "9780984201006"
 price: $12.95
 cover: images/paradigm40_cover.jpg
-exturl: http://www.press.uchicago.edu/presssite/metadata.epl?mode=synopsis&bookkey=9126181
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/G/bo9126181.html
 draft: false
 show: true
 ---
