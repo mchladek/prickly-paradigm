@@ -6,7 +6,7 @@ pages: 62
 ISBN: "9780996635509"
 price: $12.95
 cover: images/paradigm49_cover.jpg
-exturl: http://press.uchicago.edu/ucp/books/book/distributed/Other/bo18197996.html
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/S/bo23758959.html
 notes: images/schremppnotesv2.pdf
 draft: false
 show: true
