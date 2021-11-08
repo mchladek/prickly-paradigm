@@ -3,10 +3,10 @@ title: The Counter-Counterinsurgency Manual
 author: The Network of Concerned Anthropologists
 number: 35
 pages: 190
-ISBN: 978-0-9794057-5-4
+ISBN: "9780979405754"
 price: $12.95
 cover: images/paradigm35_cover.jpg
-exturl: http://www.amazon.com/Counter-Counterinsurgency-Manual-Network-Concerned-Anthropologists/dp/0979405750/ref=sr_1_fkmr0_1?ie=UTF8&qid=1283180048&sr=1-1-fkmr0
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/C/bo6899695.html
 draft: false
 show: true
 ---
