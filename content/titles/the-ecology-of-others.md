@@ -6,7 +6,7 @@ pages: 90
 ISBN: "9780984201020"
 price: $12.95
 cover: images/paradigm42_cover.jpg
-exturl: http://press.uchicago.edu/ucp/books/book/distributed/E/bo14417933.html
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/E/bo14417933.html
 draft: false
 show: true
 ---
