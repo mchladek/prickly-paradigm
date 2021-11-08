@@ -8,7 +8,7 @@ pages: 75
 ISBN: "9780996635516"
 price: $12.95
 cover: images/paradigm51_cover.jpg
-exturl: http://press.uchicago.edu/ucp/books/book/distributed/M/bo25397141.html
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/M/bo25397141.html
 draft: false
 show: true
 ---
