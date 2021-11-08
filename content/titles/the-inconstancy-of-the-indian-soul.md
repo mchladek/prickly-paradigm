@@ -7,7 +7,7 @@ pages: 108
 ISBN: "9780984201013"
 price: $12.95
 cover: images/paradigm41_cover.jpg
-exturl: http://www.press.uchicago.edu/ucp/books/book/distributed/I/bo11494157.html
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/I/bo11494157.html
 notes: images/prickly-paradigm-41-notes.pdf
 draft: false
 show: true
