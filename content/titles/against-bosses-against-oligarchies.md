@@ -7,7 +7,7 @@ pages: 80
 ISBN: "9780971757523"
 price: $12.95
 cover: images/paradigm03_cover.jpg
-exturl: http://www.press.uchicago.edu/presssite/metadata.epl?mode=synopsis&bookkey=3640892
+exturl: https://www.amazon.com/Against-Bosses-Oligarchies-Conversation-Richard/dp/0971757526
 fulltext: images/rorty_paradigm3.pdf
 draft: false
 show: true
