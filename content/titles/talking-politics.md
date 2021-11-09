@@ -7,7 +7,7 @@ pages: 142
 ISBN: "9780971757554"
 price: $12.95
 cover: images/paradigm06_cover.jpg
-exturl: http://www.press.uchicago.edu/presssite/metadata.epl?isbn=9780971757554
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/T/bo3615583.html
 fulltext: images/paradigm6.pdf
 draft: false
 show: true
