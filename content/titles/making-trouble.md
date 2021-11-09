@@ -7,7 +7,7 @@ pages: 95
 ISBN: "9780996635523"
 price: $12.95
 cover: images/paradigm52_cover.jpg
-exturl: http://press.uchicago.edu/ucp/books/book/distributed/M/bo26613964.html
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/M/bo26613964.html
 notes: images/sayernotesv2.pdf
 draft: false
 show: true
