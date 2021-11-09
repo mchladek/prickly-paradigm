@@ -7,7 +7,7 @@ pages: 64
 ISBN: "9780971757516"
 price: $12.95
 cover: images/paradigm02_cover.jpg
-exturl: http://www.press.uchicago.edu/presssite/metadata.epl?mode=synopsis&bookkey=3642140
+exturl: http://www.bruno-latour.fr/sites/default/files/85-WAR-OF-WORLDS-GB.pdf
 fulltext: images/paradigm2.pdf
 draft: false
 show: true
