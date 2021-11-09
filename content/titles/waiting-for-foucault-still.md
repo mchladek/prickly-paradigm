@@ -6,7 +6,7 @@ pages: 96
 ISBN: "978097157509"
 price: $12.95
 cover: images/paradigm01_cover.jpg
-exturl: http://www.press.uchicago.edu/presssite/metadata.epl?isbn=9780971757509
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/W/bo3631327.html
 fulltext: images/sahlins_paradigm1.pdf
 draft: false
 show: true
