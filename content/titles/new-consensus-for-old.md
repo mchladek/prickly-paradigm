@@ -7,7 +7,7 @@ pages: 64
 ISBN: "9780871757547"
 price: $12.95
 cover: images/paradigm05_cover.jpg
-exturl: http://www.press.uchicago.edu/presssite/metadata.epl?mode=synopsis&bookkey=3621689
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/N/bo3621689.html
 fulltext: images/paradigm5.pdf
 draft: false
 show: true
