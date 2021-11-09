@@ -6,7 +6,7 @@ pages: 58
 ISBN: "0971757534"
 price: $12.95
 cover: images/paradigm04_cover.jpg
-exturl: http://www.deirdremccloskey.com/books/index.php
+exturl: https://www.deirdremccloskey.com/docs/paradigm.pdf
 fulltext: images/mccloskey_paradigm4.pdf
 draft: false
 show: true
