@@ -6,7 +6,7 @@ pages: 88
 ISBN: "9780971757578"
 price: $12.95
 cover: images/paradigm07_cover.jpg
-exturl: http://www.press.uchicago.edu/presssite/metadata.epl?mode=synopsis&bookkey=3619224
+exturl: https://press.uchicago.edu/ucp/books/book/distributed/R/bo3619224.html
 draft: false
 show: true
 ---
