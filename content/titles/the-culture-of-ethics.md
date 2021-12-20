@@ -3,7 +3,7 @@ title: The Culture of Ethics
 author: Franco La Cecla and Piero Zanini
 number: 44
 pages: 90
-ISBN: "9780984201020"
+ISBN: "9780984201044"
 price: $12.95
 cover: images/paradigm44_cover.jpg
 exturl: https://press.uchicago.edu/ucp/books/book/distributed/C/bo16892684.html
