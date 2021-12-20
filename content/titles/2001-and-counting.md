@@ -4,7 +4,7 @@ subtitle: Kubrick, Nietzsche, and Anthropology
 author: Bruce Kapferer
 number: 45
 pages: 90
-ISBN: "9780984201020"
+ISBN: "9780984201051"
 price: $12.95
 cover: images/paradigm45_cover.jpg
 exturl: https://press.uchicago.edu/ucp/books/book/distributed/Other/bo18197996.html
