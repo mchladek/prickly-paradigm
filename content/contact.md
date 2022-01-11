@@ -53,4 +53,7 @@ Matthew Knisley
 *Chloé Faux*\
 [csf2107@columbia.edu](mailto:csf2107@columbia.edu)\
 *Connor Martini*\
-[cjm2257@columbia.edu](mailto:cjm2257@columbia.edu)
+[cjm2257@columbia.edu](mailto:cjm2257@columbia.edu)\
+\
+\
+For general inquiries, please email [info@prickly-paradigm.com](mailto:info@prickly-paradigm.com)
