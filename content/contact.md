@@ -24,6 +24,13 @@ Chicago, IL 60628 USA
 
 For more information on desk copies, please visit the [University of Chicago Press](https://press.uchicago.edu/books/instructors.html) website.
 
+## \
+Course Use Requests
+
+To purchase the rights to use any of our materials in your course or other academic program, please go to the [Copyright Clearance Center](https://marketplace.copyright.com/rs-ui-web/mp/search/publisher/Prickly%20Paradigm%20Press) marketplace.
+
+
+
 ## Manuscript Submissions
 
 Authors interested in submitting manuscripts for consideration should initially send a 1,000-word proposal, preferably in the body of an e-mail, to the executive editor. The proposal should detail the topic and main argument of the piece. It should also include a list of potential audiences and marketing considerations. If a proposal is successful, the Press will then ask to review the manuscript in its entirety. Unsolicited full-length manuscripts will not be considered.
