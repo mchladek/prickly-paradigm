@@ -24,8 +24,9 @@ Chicago, IL 60628 USA
 
 For more information on desk copies, please visit the [University of Chicago Press](https://press.uchicago.edu/books/instructors.html) website.
 
-## \
-Course Use Requests
+
+
+## Course Use Requests
 
 To purchase the rights to use any of our materials in your course or other academic program, please go to the [Copyright Clearance Center](https://marketplace.copyright.com/rs-ui-web/mp/search/publisher/Prickly%20Paradigm%20Press) marketplace.
 
