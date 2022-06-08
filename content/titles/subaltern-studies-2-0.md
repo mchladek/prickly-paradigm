@@ -4,7 +4,7 @@ subtitle: Being against the Capitalocene
 author: Milinda Banerjee and Jelle J.P. Wouters
 byline2: With Essays by Gayatri Chakravorty Spivak, Marisol de la Cadena, Thom
   Van Dooren, and Suraj Yengde
-number: 58
+number: 62
 ISBN: "9781734643534"
 price: "12.95"
 cover: images/9781734643534.jpeg
