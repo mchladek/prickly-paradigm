@@ -1,7 +1,8 @@
 ---
 title: Home
 description: ""
-images: []
+images:
+  - images/background_1.jpg
 draft: false
 menu: main
 weight: 1
