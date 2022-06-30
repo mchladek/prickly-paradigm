@@ -1,8 +1,8 @@
 ---
 title: Latest News
 description: ""
-draft: false
+draft: true
 weight: 2
 carousel: false
-announcements: true
+announcements: false
 ---
