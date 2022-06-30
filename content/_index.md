@@ -5,7 +5,7 @@ images:
   - images/background_1.jpg
 draft: false
 menu: main
-weight: 1
+weight: 2
 show: false
 ---
 <br><br><br>
