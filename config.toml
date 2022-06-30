@@ -39,7 +39,7 @@ tumblr = ""
 linkedin = ""
 
 [params.cta]
-show = false
+show = true
 cta = "Recent Titles"
 link = "#section-1"
 
