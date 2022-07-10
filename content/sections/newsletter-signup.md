@@ -1,5 +1,5 @@
 ---
-title: Newsletter Signup
+title: Keep in touch!
 draft: false
 weight: 2
 carousel: false
